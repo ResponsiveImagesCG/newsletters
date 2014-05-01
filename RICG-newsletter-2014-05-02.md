@@ -10,7 +10,7 @@ If you’ve been following the Group for any amount of time, you know just how a
 
 To everyone that contributed to the campaign: a sincere and heartfelt thank you. You helped make responsive images on the web a reality. Now it’s time to start kicking the tires.
 
-[Picturefill v2](http://scottjehl.github.io/picturefill/) hit beta this week. It provides a complete, spec-compliant pollyfill, allowing everyone to use the new markup in a fallback-and-future-friendly fashion, *right now*. It’s still in beta so I wouldn’t drop it into a production setting *yet*, but if you’re looking to get your hands dirty with the new markup, [grab Picturefill v2](http://scottjehl.github.io/picturefill/#download) and start coding.
+[Picturefill v2.0.0](http://scottjehl.github.io/picturefill/) officially launched this week. It provides a complete pollyfill, allowing everyone to use the new markup in a fallback-and-future-friendly fashion, *right now*. It may be early to start using the `picture` markup in production, but if you’re looking to get your hands dirty with the new markup [grab Picturefill 2.0](http://scottjehl.github.io/picturefill/#download) and start coding—and [file issues](https://github.com/scottjehl/picturefill/issues)!
 
 If you’re feeling particularly adventurous, Yoav would like nothing more than to have as many people as possible using and abusing the in-progress Blink implementation. How-to:
 
