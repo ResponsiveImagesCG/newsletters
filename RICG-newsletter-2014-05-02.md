@@ -24,7 +24,7 @@ As of this writing, `srcset` and `sizes` are up and running; `picture` and `sour
 
 More huge news! [Sizer Soze](http://sizersoze.org/) is fully operational. Want to see first-hand just how wasteful your non-responsive images are? Give Sizer Soze a URL and a few window widths—it’ll load your page, re-size and re-compress your images to fit the layout at those widths, and tell you what you would have saved by supplying appropriately-sized images. Hint: lots!
 
-The server is young and loading/re-compressing boatloads of images is expensive so a little paitence and understanding might be in order… but it’s worth it. There’s nothing like seeing the giant potential savings on sites *you* own and maintain to really bring home the importance and potential of the new spec.
+The server is a little shaky and loading/re-compressing boatloads of images is expensive, so a little patience and understanding might be in order (we’re working on it). It’s worth it, though: there’s nothing like seeing the giant potential savings on sites *you* own and maintain to really bring home the importance and potential of the new spec.
 
 So: there is a *lot* going on. Sadly, I’m pushing up against my word limit... otherwise I’d mention that the new features are getting [Modern](https://github.com/Modernizr/Modernizr/pull/1305)[ized](https://github.com/Modernizr/Modernizr/pull/1302), [shived](https://github.com/aFarkas/html5shiv/issues/150), and [caniused](https://github.com/Fyrd/caniuse/pull/518). I’d point you to [Yoav’s recent talk](http://vimeo.com/93347500) at the State of the Browser 2014 conference—maybe I’d even have the space to show you [a crazy picture](https://twitter.com/AndyDavies/status/459982131562045440) of his grody old jalopy of a laptop. Too bad.
 
