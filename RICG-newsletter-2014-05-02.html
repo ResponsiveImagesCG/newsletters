@@ -1,0 +1,32 @@
+<h1>RICG newsletter 2014-05-02</h1>
+
+<p>It has been a busy few weeks around the RICG.</p>
+
+<p>First and foremost: the Group’s <a href="https://www.indiegogo.com/projects/picture-element-implementation-in-blink">IndieGoGo campaign</a> to support Yoav Weiss’ implementation efforts came to a close on Thursday and we’re over the moon about its success. We raised $15,366, well over our original $10K goal. Thus, not only will Yoav will be able to devote himself full-time to seeing the <a href="https://www.indiegogo.com/projects/picture-element-implementation-in-blink#activity">rapidly-progressing</a> Blink implementation through—he’ll also be able to port that implementation over to WebKit.</p>
+
+<p>WebKit has given Yoav the <a href="https://lists.webkit.org/pipermail/webkit-dev/2014-March/026401.html">go-ahead</a> to start coding and committing. It’s important to note that they’ve made no promises to ship anything. But we can now say that experimental implementations have been green-lighted in Blink, Gecko (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=picture">`picture`</a>, and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=srcset">`srcset`</a>), and WebKit. IE officially lists the feature as <a href="http://status.modern.ie/pictureelement">under consideration</a>. <code>picture</code>, <code>srcset</code>, and <code>sizes</code> are being actively implemented in three major rendering engines and are on the radar of the fourth.</p>
+
+<p>If you’ve been following the Group for any amount of time, you know just how amazing that is.</p>
+
+<p>To everyone that contributed to the campaign: a sincere and heartfelt thank you. You helped make responsive images on the web a reality. Now it’s time to start kicking the tires.</p>
+
+<p><a href="http://scottjehl.github.io/picturefill/">Picturefill v2.0.0</a> officially launched this week. It provides a complete pollyfill, allowing everyone to use the new markup in a fallback-and-future-friendly fashion, <em>right now</em>. It may be early to start using the <code>picture</code> markup in production, but if you’re looking to get your hands dirty with the new markup <a href="http://scottjehl.github.io/picturefill/#download">grab Picturefill 2.0</a> and start coding—and <a href="https://github.com/scottjehl/picturefill/issues">file issues</a>!</p>
+
+<p>If you’re feeling particularly adventurous, Yoav would like nothing more than to have as many people as possible using and abusing the in-progress Blink implementation. How-to:</p>
+
+<ol>
+<li>Download <a href="https://www.google.com/intl/en/chrome/browser/canary.html">Chrome Canary</a></li>
+<li>Go to <code>chrome://flags/#enable-experimental-web-platform-features</code></li><li>Click “Enable”</li>
+<li>Pause a moment, relishing life on the bleeding edge as you prepare to experience the future: native, in-browser responsive images.</li>
+<li>Break things and <a href="http://new.crbug.com">submit bugs</a>.</li>
+</ol>
+
+<p>As of this writing, <code>srcset</code> and <code>sizes</code> are up and running; <code>picture</code> and <code>source</code> aren’t in just yet. But they’re <a href="https://code.google.com/p/chromium/issues/detail?id=368830">just around the corner</a>!</p>
+
+<p>More huge news! <a href="http://sizersoze.org/">Sizer Soze</a> is fully operational. Want to see first-hand just how wasteful your non-responsive images are? Give Sizer Soze a URL and a few window widths—it’ll load your page, re-size and re-compress your images to fit the layout at those widths, and tell you what you would have saved by supplying appropriately-sized images. Hint: lots!</p>
+
+<p>The server is a little shaky and loading/re-compressing boatloads of images is expensive, so a little patience and understanding might be in order (we’re working on it). It’s worth it, though: there’s nothing like seeing the giant potential savings on sites <em>you</em> own and maintain to really bring home the potential of the new spec.</p>
+
+<p>Sadly, I’m pushing up against my word limit... otherwise I’d mention that the new features are getting <a href="https://github.com/Modernizr/Modernizr/pull/1305">Modern</a><a href="https://github.com/Modernizr/Modernizr/pull/1302">ized</a>, <a href="https://github.com/aFarkas/html5shiv/issues/150">shived</a>, and <a href="https://github.com/Fyrd/caniuse/pull/518">caniused</a>. I’d point you to <a href="http://vimeo.com/93347500">Yoav’s recent talk</a> at the State of the Browser 2014 conference—maybe I’d even have the space to show you <a href="https://twitter.com/AndyDavies/status/459982131562045440">a crazy picture</a> of his grody old jalopy of a laptop. Too bad.</p>
+
+<p>See you in a couple of weeks!</p>
