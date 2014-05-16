@@ -12,7 +12,7 @@ Foundational and exciting stuff!
 
 ## Spec work
 
-Speaking of foundational and exciting stuff, work is being done to integrate picture into the HTML spec proper. WHATWG editor Ian Hickson has concerns about `picture`’s maintainability and offered to turn over responsibility for the pertinent parts of the [Living Standard](http://www.whatwg.org/specs/web-apps/current-work/) to Simon Pieters of Opera, one of `picture`’s editors. Simon accepted, and soon the Group’s [GitHub repository](https://github.com/ResponsiveImagesCG/picture-element/) will become the canonical home of the WHATWG `picture` and `img` specifications, which will be pulled from there into the WHATWG document automatically.
+Speaking of foundational and exciting stuff, work is being done to integrate picture into the HTML spec proper. WHATWG editor Ian Hickson has concerns about `picture`’s maintainability and offered to turn over responsibility for the pertinent parts of the [Living Standard](http://www.whatwg.org/specs/web-apps/current-work/) to Simon Pieters of Opera, one of `picture`’s editors. Simon accepted, and the Group’s [GitHub repository](https://github.com/ResponsiveImagesCG/picture-element/) is now the canonical home of the WHATWG `picture` and `img` specifications, which will henceforth be pulled from there into the WHATWG document automatically.
 
 When we started this process we thought we’d get a responsive images solution into specifications first and browsers second. But the web, as they say, runs on rough consensus and running code. After years of work we’ve achieved both and have worked our way into the spec the other way ‘round.
 
