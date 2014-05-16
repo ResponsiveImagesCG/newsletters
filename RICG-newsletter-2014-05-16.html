@@ -1,11 +1,38 @@
-<h1>RICG newsletter 2014-05-16</h1><h2>Implementations march on</h2><p>First off, after months of work, John Schoenick <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=870022#c19">published thirteen patches for Firefox last week</a> which provide “basically-working” <code>picture</code>, <code>srcset</code>, and <code>sizes</code> implementations! Grab John’s “Work In Progress” builds and see for yourself <a href="https://tbpl.mozilla.org/?tree=Try&amp;rev=4a1342079d79">here</a>.</p>
+<h1>RICG newsletter 2014-05-16</h1>
+
+
+<h2>Implementations march on</h2>
+
+<p>First off, after months of work, John Schoenick <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=870022#c19">published thirteen patches for Firefox last week</a> which provide “basically-working” <code>picture</code>, <code>srcset</code>, and <code>sizes</code> implementations! Grab John’s “Work In Progress” builds and see for yourself <a href="https://tbpl.mozilla.org/?tree=Try&amp;rev=4a1342079d79">here</a>.</p>
+
 <p>Over on the Blink side of things, Yoav Weiss soldiered on, <a href="https://codereview.chromium.org/261823002/">adding <code>picture</code> support to the DOM</a> and <a href="https://codereview.chromium.org/265763010/">working on preloading</a>. And Google developer Christian Biesinger <a href="https://codereview.chromium.org/200923002/">landed some changes</a> to the basic algorithms governing image loading which pave the way for <code>picture</code>.</p>
+
 <p>Christian introduced the concept of <a href="http://www.whatwg.org/specs/web-apps/current-work/#await-a-stable-state">“stable state”</a>. Previously, Blink would greedily load an image source as soon as it saw it; now it politely waits for processes which might switch that source out from under its nose to finish. For instance: the code Yoav is writing to pick a URL out of a <code>picture</code> element and its `source`s.</p>
+
 <p>Foundational and exciting stuff!</p>
-<h2>Spec work</h2><p>Speaking of foundational and exciting stuff, work is being done to integrate picture into the HTML spec proper. WHATWG editor Ian Hickson has concerns about <code>picture</code>’s maintainability and offered to turn over responsibility for the pertinent parts of the <a href="http://www.whatwg.org/specs/web-apps/current-work/">Living Standard</a> to Simon Pieters of Opera, one of <code>picture</code>’s editors. Simon accepted, and the Group’s <a href="https://github.com/ResponsiveImagesCG/picture-element/">GitHub repository</a> is now the canonical home of the WHATWG <code>picture</code> and <code>img</code> specifications, which will henceforth be pulled from there into the WHATWG document automatically.</p>
+
+
+<h2>Spec work</h2>
+
+<p>Speaking of foundational and exciting stuff, work is being done to integrate picture into the HTML spec proper. WHATWG editor Ian Hickson has concerns about <code>picture</code>’s maintainability and offered to turn over responsibility for the pertinent parts of the <a href="http://www.whatwg.org/specs/web-apps/current-work/">Living Standard</a> to Simon Pieters of Opera, one of <code>picture</code>’s editors. Simon accepted, and the Group’s <a href="https://github.com/ResponsiveImagesCG/picture-element/">GitHub repository</a> is now the canonical home of the WHATWG <code>picture</code> and <code>img</code> specifications, which will henceforth be pulled from there into the WHATWG document automatically.</p>
+
 <p>When we started this process we thought we’d get a responsive images solution into specifications first and browsers second. But the web, as they say, runs on rough consensus and running code. After years of work we’ve achieved both and have worked our way into the spec the other way ‘round.</p>
-<h2>Spreading the word</h2><p>Here are a few front-end-dev-centered, <code>picture</code>-related links from the past couple of weeks:</p>
-<ul><li>Scott Jehl <a href="http://www.muleradio.net/thebigwebshow/118/">talked about PictureFill and responsive images generally on The Big Web Show</a></li><li>Martin Wolf <a href="http://martinwolf.org/2014/05/07/the-new-srcset-and-sizes-explained/">shared his experience</a> learning to use <code>srcset</code> and <code>sizes</code></li><li>Tim Kaldec <a href="http://timkadlec.com/2014/05/dont-wait-on-responsive-images/">urged developers</a> to not let the perfect be the enemy of the good: use the new markup now and work to leverage other layers of the stack to make responsive images even easier, later.</li><li>Over at Smashing Magazine, Tim Wright published an <a href="http://www.smashingmagazine.com/2014/05/12/picturefill-2-0-responsive-images-and-the-perfect-polyfill/">introduction to PictureFill</a> and yours truly penned <a href="http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/">a tour of the spec and the use-cases it was designed for</a>.</li></ul>
-<h2>Oh and Sizer Soze is better now</h2><p>If you gave <a href="http://sizersoze.org">Sizer Soze</a> a spin after reading about it in the newsletter last week and found it a bit flaky, well, it’s better now. Harder better faster stronger. So go forth and measure how many bytes your non-responsive images are wasting!</p>
+
+<h2>Spreading the word</h2>
+
+<p>Here are a few front-end-dev-centered, <code>picture</code>-related links from the past couple of weeks:</p>
+<ul>
+<li>Scott Jehl <a href="http://www.muleradio.net/thebigwebshow/118/">talked about PictureFill and responsive images generally on The Big Web Show</a></li>
+<li>Martin Wolf <a href="http://martinwolf.org/2014/05/07/the-new-srcset-and-sizes-explained/">shared his experience</a> learning to use <code>srcset</code> and <code>sizes</code></li>
+<li>Tim Kaldec <a href="http://timkadlec.com/2014/05/dont-wait-on-responsive-images/">urged developers</a> to not let the perfect be the enemy of the good: use the new markup now and work to leverage other layers of the stack to make responsive images even easier, later.</li>
+<li>Over at Smashing Magazine, Tim Wright published an <a href="http://www.smashingmagazine.com/2014/05/12/picturefill-2-0-responsive-images-and-the-perfect-polyfill/">introduction to PictureFill</a> and yours truly penned <a href="http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/">a tour of the spec and the use-cases it was designed for</a>.</li>
+</ul>
+
+
+<h2>Oh and Sizer Soze is better now</h2>
+
+<p>If you gave <a href="http://sizersoze.org">Sizer Soze</a> a spin after reading about it in the newsletter last week and found it a bit flaky, well, it’s better now. Harder better faster stronger. So go forth and measure how many bytes your non-responsive images are wasting!</p>
+
 <p>See you in a couple of weeks!</p>
+
 <p>—eric</p>
