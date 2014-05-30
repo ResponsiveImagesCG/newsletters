@@ -1,4 +1,4 @@
-# RICG newsletter 2014-05-30
+# Mark Your Calendars
 
 I’ll cut right to the chase: Chrome Canary currently has a fully-operational implementation of the `picture` spec behind a experimental flag. In the words of Yoav, [“the important part now is *testing*”](https://twitter.com/yoavweiss/status/471405184741281792). So:
 
