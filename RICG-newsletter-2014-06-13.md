@@ -2,7 +2,7 @@
 
 ## Three browsers by Halloween
 
-[Firefox Nightly](http://nightly.mozilla.org/) now includes `srcset` and `x`-descriptor support behind a flag — instructions on how to enable and test the feature are [here](http://codepen.io/RICG/pen/poKfj). The feature should be on-by-default [shortly](https://bugzilla.mozilla.org/show_bug.cgi?id=1018389) and `sizes`, `w` descriptors, and `picture` support are [right around the corner](https://bugzilla.mozilla.org/show_bug.cgi?id=picture). Nothing is certian, but if things keep progressing apace, full `picture` spec support should be shipping on-by-default in FireFox 33 on October 14th.
+[Firefox Nightly](http://nightly.mozilla.org/) now includes `srcset` and `x`-descriptor support behind a flag – instructions on how to enable and test the feature are [here](http://codepen.io/RICG/pen/poKfj). The feature should be on-by-default [shortly](https://bugzilla.mozilla.org/show_bug.cgi?id=1018389) and `sizes`, `w` descriptors, and `picture` support are [right around the corner](https://bugzilla.mozilla.org/show_bug.cgi?id=picture). Nothing is certian, but if things keep progressing apace, full `picture` spec support should be shipping on-by-default in FireFox 33 on October 14th.
 
 Over on the Blink side of things, `srcset` and `sizes` received [the three magical “LGTM”s](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/GRfwz951FHo
 ) they needed to come out from behind their experimental feature flag and should be on-by-default in M38 — shipping in Chrome 38 stable on September 26th and Opera 25 around the same time.
@@ -11,7 +11,7 @@ Over on the Blink side of things, `srcset` and `sizes` received [the three magic
 
 Yoav has successfully wrangled the existing WebKit `srcset` implementation into shape, [aligning it with the spec](https://bugs.webkit.org/show_bug.cgi?id=133504) and setting the stage for [`sizes` support](https://bugs.webkit.org/show_bug.cgi?id=133620).
 
-[Rumor has it](https://twitter.com/helloanselm/status/473719818756317184) that iOS 8 even supports (old) `srcset`. Baby steps!
+[Rumor has it](https://twitter.com/helloanselm/status/473719818756317184) that iOS 8 even supports `x` descriptors in `srcset`. Baby steps!
 
 ## In the meantime, Picturefill...
 
@@ -32,6 +32,8 @@ If you haven’t given Picturefill a go yet, you really should code like it’s 
 ## And hey! Weren’t those [t-shirts](https://dribbble.com/shots/1471972-Responsive-Images-Community-Group-IndieGogo-Campaign) great?
 
 I got mine in the mail last week and I just want to say that they’re really terrific. Thanks again to [Geri Coady](http://www.hellogeri.com/) for the design, [United Pixelworkers](http://www.unitedpixelworkers.com/) for the printing, and RICG chair [Mat Marquis](https://twitter.com/wilto) for running logistics. And thanks most of all to all of you for buying them and [making Yoav’s tireless implementation work possible](https://www.indiegogo.com/projects/picture-element-implementation-in-blink)!
+
+We’ve been getting a lot of questions about how to buy the shirts now that the campaign is over. We don’t have anything firm to report yet but we’re looking into our re-print options. If you missed the boat on these, keep an eye out!
 
 See you in a couple of weeks!
 
