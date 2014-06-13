@@ -1,0 +1,64 @@
+<h1>LGTM</h1>
+
+<h2>Three browsers by Halloween</h2>
+
+<p>
+<a href="http://nightly.mozilla.org/">Firefox Nightly</a> now includes <code>srcset</code> and <code>x</code>-descriptor support behind a flag – instructions on how to enable and test the feature are <a href="http://codepen.io/RICG/pen/poKfj">here</a>. The feature should be on-by-default <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1018389">shortly</a> and <code>sizes</code>, <code>w</code> descriptors, and <code>picture</code> support are <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=picture">right around the corner</a>. Nothing is certian, but if things keep progressing apace, full <code>picture</code> spec support should be shipping on-by-default in FireFox 33 on October 14th.
+</p>
+
+<p>
+Over on the Blink side of things, <code>srcset</code> and <code>sizes</code> received [the three magical “LGTM”s](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/GRfwz951FHo) they needed to come out from behind their experimental feature flag and should be on-by-default in M38 — shipping in Chrome 38 stable on September 26th and Opera 25 around the same time.
+</p>
+
+<h2>Webkit’s not <em>too</em> far behind</h2>
+
+<p>
+Yoav has successfully wrangled the existing WebKit <code>srcset</code> implementation into shape, <a href="https://bugs.webkit.org/show_bug.cgi?id=133504">aligning it with the spec</a> and setting the stage for <a href="https://bugs.webkit.org/show_bug.cgi?id=133620">`sizes` support</a>.
+</p>
+
+<p>
+<a href="https://twitter.com/helloanselm/status/473719818756317184">Rumor has it</a> that iOS 8 even supports <code>x</code> descriptors in <code>srcset</code>. Baby steps!</p>
+<h2>In the meantime, Picturefill...</h2>
+<p>PictureFill 2.1, which brings <code>srcset</code> parsing in-line with the spec, hit <a href="https://github.com/scottjehl/picturefill/releases/tag/2.1.0-beta">beta</a>.</p>
+
+<p>
+If you haven’t given Picturefill a go yet, you really should code like it’s 2015 and give it a whirl. If you <em>are</em> using it, <a href="https://github.com/scottjehl/picturefill/issues/258">let them know</a>!
+</p>
+
+<h2>...and boatloads of blog posts!</h2>
+
+<ul>
+
+<li>
+<a href="http://css-tricks.com/video-screencasts/133-figuring-responsive-images/">Chris Coyier wrote and video’d</a> his initial experiences with the new markup over on CSS Tricks</li>
+
+<li>Tracy Rotton posted <a href="http://www.taupecat.com/2014/05/picturefill-js-wordpress/">a great tutorial on how to use Picturefill in WordPress</a></li>
+
+<li>Matt Wilcox <a href="https://mattwilcox.net/archives/a-picture-perfect-problem/">wrote up his initial (cautious) thoughts</a> (<a href="https://github.com/ResponsiveImagesCG/newsletters/issues/17#issuecomment-43977530">Yoav’s response</a>)</li>
+
+<li>Derek Johnson provided a <a href="http://nostrongbeliefs.com/responsive-images/">great, complete overview</a> of the spec</li>
+
+<li>Mat Marquis <a href="http://alistapart.com/blog/post/testing-responsive-images">took to the A List Apart blog</a>, calling all interested parties to help test the in-progress implementations.</li>
+
+<li>Speaking of things Apart, the Monkey Do folks <a href="http://monkeydo.biz/blog/an-event-apart-and-the-picture-element">wrote up their experience deploying Picturefill on the An Event Apart page</a> (and <a href="https://github.com/ResponsiveImagesCG/newsletters/issues/22#issue-34792503">I nitpicked thier post</a>)</li>
+
+<li>Martin Wolf <a href="http://martinwolf.org/2014/06/05/screencast-native-picture-element-implementation-in-chrome-canary/">screencasted</a> his experience kicking the Canary tires.
+</li>
+
+</ul>
+
+<h2>And hey! Weren’t those <a href="https://dribbble.com/shots/1471972-Responsive-Images-Community-Group-IndieGogo-Campaign">t-shirts</a> great?</h2>
+
+<p>
+I got mine in the mail last week and I just want to say that they’re really terrific. Thanks again to <a href="http://www.hellogeri.com/">Geri Coady</a> for the design, <a href="http://www.unitedpixelworkers.com/">United Pixelworkers</a> for the printing, and RICG chair <a href="https://twitter.com/wilto">Mat Marquis</a> for running logistics. And thanks most of all to all of you for buying them and <a href="https://www.indiegogo.com/projects/picture-element-implementation-in-blink">making Yoav’s tireless implementation work possible</a>!
+</p>
+
+<p>
+We’ve been getting a lot of questions about how to buy the shirts now that the campaign is over. We don’t have anything firm to report yet but we’re looking into our re-print options. If you missed the boat on these, keep an eye out!
+</p>
+
+<p>
+See you in a couple of weeks!
+</p>
+
+<p>—eric</p>
