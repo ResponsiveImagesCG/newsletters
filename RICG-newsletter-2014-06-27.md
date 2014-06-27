@@ -1,7 +1,7 @@
 # Spec’d!
 
 <header><small>
-`picture` has landed in the W3C and WHATWG HTML specifications; validators and best-practice guides have been updated with the new markup; implementations march on.
+<p><code>picture</code> has landed in the W3C and WHATWG HTML specifications; developer resources are being updated with the new markup; implementations march on.</p>
 </small></header>
 
 ## Spec’d…
