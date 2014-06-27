@@ -17,7 +17,7 @@ And, hey! Look who popped into the W3C HTML spec’s [list of editors](http://ww
 
 Not bad for a [Community Group](http://w3cmemes.tumblr.com/post/23122022271).
 
-## …Correct…
+## …correct…
 
 Mike Smith, who maintains the [W3C HTML Validator](http://validator.w3.org/nu/) is [adding](https://github.com/validator/syntax/commits/picture) `picture` spec support; it should land within a [fortnight](http://ircbot.responsiveimages.org/bot/log/respimg/2014-06-26#T79559). The under-development `picture` branch is up and running [here](http://qa-dev.w3.org:8888/) – go test your code! (And the validator!)
 
@@ -25,7 +25,7 @@ Mike Smith, who maintains the [W3C HTML Validator](http://validator.w3.org/nu/) 
 
 And Google’s new and wonderful [Web Fundamentals](https://developers.google.com/web/fundamentals/) guide now features the new markup in its [section on content images](https://developers.google.com/web/fundamentals/media/images/images-in-markup).
 
-## …and In Effect
+## …and in effect
 
 Firefox Nightly has included `srcset` and `sizes` support for a few weeks – yesterday, John Schoenick (hero) [landed `picture` support](http://bugzil.la/picture), too. It’s currently disabled by default (behind the `dom.image.picture` flag), but that should [change](http://bugzil.la/picture-prefon) [soon](http://bugzil.la/srcset-prefon). John is still aiming for on-by-default support in Firefox 33 (which, [you may recall](https://github.com/ResponsiveImagesCG/newsletters/blob/master/RICG-newsletter-2014-06-13.md#three-browsers-by-halloween), ships on October 14th!).
 
