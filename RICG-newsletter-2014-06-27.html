@@ -1,0 +1,44 @@
+<h1>Spec’d!</h1>
+
+<header><small>
+<p><code>picture</code> has landed in the W3C and WHATWG HTML specifications; developer resources are being updated with the new markup; implementations march on.</p>
+</small></header>
+
+<h2>Spec’d…</h2>
+
+<p>The <code>picture</code> spec has landed in both the WHATWG and W3C specs.</p>
+
+<ul>
+<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/edits.html#the-picture-element">WHATWG <code>picture</code></a></li>
+<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/edits.html#attr-img-srcset">WHATWG <code>srcset</code></a></li>
+<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/edits.html#attr-img-sizes">WHATWG <code>sizes</code></a></li>
+<li><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-picture-element">W3C <code>picture</code></a></li>
+<li><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-srcset">W3C <code>srcset</code></a></li>
+<li><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-sizes">W3C <code>sizes</code></a></li>
+</ul>
+
+<p>Simon Pieters, <a href="https://twitter.com/zcorpan/status/478960023234945024">hero</a>, took on responsibility for all of the image-related bits of the WHATWG spec in order to make this happen. Simon included a nice, “non-normative” (aka “informal” also known as “readable”) <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/edits.html#introduction-0">introduction to the new markup</a> along with all of the technical bits.</p>
+
+<p>And, hey! Look who popped into the W3C HTML spec’s <a href="http://www.w3.org/html/wg/drafts/html/master/Overview.html#specification-editors">list of editors</a>!</p>
+
+<p>Not bad for a <a href="http://w3cmemes.tumblr.com/post/23122022271">Community Group</a>.</p>
+
+<h2>…correct…</h2>
+
+<p>Mike Smith, who maintains the <a href="http://validator.w3.org/nu/">W3C HTML Validator</a> is <a href="https://github.com/validator/syntax/commits/picture">adding</a> <code>picture</code> spec support; it should land within a <a href="http://ircbot.responsiveimages.org/bot/log/respimg/2014-06-26#T79559">fortnight</a>. The under-development <code>picture</code> branch is up and running <a href="http://qa-dev.w3.org:8888/">here</a>, armed with <a href="https://gist.github.com/sideshowbarker/8284404#file-messages-json">boatloatds of useful error messages</a> – go test your code!</p>
+
+<p><a href="http://caniuse.com/">Can I Use</a> has begun tracking <a href="http://caniuse.com/picture"><code>picture</code> support</a>.</p>
+
+<p>And Google’s new and wonderful <a href="https://developers.google.com/web/fundamentals/">Web Fundamentals</a> guide now features the new markup in its <a href="https://developers.google.com/web/fundamentals/media/images/images-in-markup">section on content images</a>.</p>
+
+<h2>…and in effect</h2>
+
+<p>Firefox Nightly has included <code>srcset</code> and <code>sizes</code> support for a few weeks – yesterday, John Schoenick (hero) <a href="http://bugzil.la/picture">landed <code>picture</code> support</a>, too. It’s currently disabled by default (behind the <code>dom.image.picture</code> flag), but that should <a href="http://bugzil.la/picture-prefon">change</a> <a href="http://bugzil.la/srcset-prefon">soon</a>. John is still aiming for on-by-default support in Firefox 33 (which, <a href="https://github.com/ResponsiveImagesCG/newsletters/blob/master/RICG-newsletter-2014-06-13.md#three-browsers-by-halloween">you may recall</a>, ships on October 14th!).</p>
+
+<p>Over on the Blink side of things, Yoav Weiss (who is <em>definitely</em> a hero) took <code>sizes</code> and <code>w</code> descriptors <a href="https://codereview.chromium.org/356833007/">out from behind their Experimental flag</a>. Meaning that the features are on-by-default in <a href="http://www.google.com/intl/en/chrome/browser/canary.html">Canary</a> <em>now</em>, and will almost certainly be enabled for millions of Chrome users when version 38 ships on September 26th.</p>
+
+<p>Heros, all of you.</p>
+
+<p>See you in a couple of weeks!</p>
+
+<p>—eric</p>
