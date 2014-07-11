@@ -1,0 +1,29 @@
+<h2>WebKit gets <code>sizes</code> – three cheers for Yoav</h2>
+
+<p>Yoav Weiss had a big week. First he <a href="https://bugs.webkit.org/show_bug.cgi?id=133620">implemented</a> and <a href="https://bugs.webkit.org/show_bug.cgi?id=134634">enabled</a> <code>sizes</code> in <a href="http://nightly.webkit.org/">WebKit Nightly</a>.</p>
+
+<p>Apple being Apple, no one can say for certain what this means about <em>when</em> the feature will be landing in the iDevices and desktop Safaris of the world, but we can say this: it’s coming.</p>
+
+<p>For those keeping count (me!), that’s three major rendering engines — <a href="http://www.google.com/intl/en/chrome/browser/canary.html">Blink</a>, <a href="http://nightly.mozilla.org">Gecko</a>, and now <a href="http://nightly.webkit.org/">WebKit</a> – with completed <code>srcset</code> and <code>sizes</code> implementations, testable <em>now</em> and slated for stable-channel release. And we’re hearing <a href="https://twitter.com/adrianba/status/486248562011799553">positive, unofficial noises</a> from the fourth!</p>
+
+<p>Back to Yoav. He was just <a href="https://codereview.chromium.org/374573003">added as a Blink core owner</a> – a title that comes with no little amount of power and responsibility. Yoav is one of only sixty-two out of the &lt;!--FACTCHECK --&gt; thousands &lt;!--/FACTCHECK --&gt; of Blink contributors to have the title, and the only one I see on <a href="https://github.com/mirrors/blink/blob/master/Source/core/OWNERS">the list</a> with an email address not ending in Chromium, Intel, Samsung, or Opera.</p>
+
+<p>While this newsletter spends a significant amount of time simply listing his accomplishments, now seems like a particularly nice time to offer Yoav our thanks and congratulations. Thanks, Yoav! And congrats!</p>
+
+<h2>Responsive elements in Blink — complete <code>picture</code> implementation imminent</h2>
+
+<p><code>picture</code> needs to react to changes in browsing conditions, post-load. If it didn’t, an art-directed layout  that relied on a certain image appearing at a certain breakpoint might break on window-resize.</p>
+
+<p>Previously, while <em>JavaScripts</em> could listen for and react to environmental changes, there was no good way for plain old elements to do so. In a <a href="https://codereview.chromium.org/348893004/">set</a> <a href="https://codereview.chromium.org/337883003/">of</a> <a href="https://codereview.chromium.org/361003004/">recent</a> <a href="https://codereview.chromium.org/287163010/">patches</a>, Google's Christian Biesinger has enabled Blink to define C++ listeners to environment changes, generally, and given <code>source</code> elements the ability to re-evaluate their <code>media</code> attributes in real time, specifically.</p>
+
+<p>With that work done, <code>picture</code> can run its selection algorithm whenever one of its <code>source</code>’s senses a relevant change, and <code>picture</code> can switch out images <em>responsively</em>.</p>
+
+<p>A fully-functioning <code>picture</code> implementation in Blink is right around the corner!</p>
+
+<h2>Spreading the word</h2>
+
+<p>There isn’t too much else to report this week but I did want to mention an excellent talk on the new markup, delivered by Matt Steele to Omaha Coffee &amp; Code. Your websites are fat!</p>
+
+<p>See you in a couple of weeks!</p>
+
+<p>—eric</p>
