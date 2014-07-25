@@ -38,7 +38,7 @@ Mat Marquis wrote a Chrome extension which calls out pages using `picture` with 
 ## In your “I”s
 ***♫ the light, the heat ♫***
 
-Finally, as the RICG begins to look beyond responsive images into other responsive-y things – to element queries, and beyond – we realize that we need a new name. Or at least a new “I.” We’ve set up a suggestion box [here](https://docs.google.com/forms/d/1dblfSFkzsdQtdilg_xpbcufHuvSW4r761xWHEm3t8W0/viewform).
+Finally, as the RICG begins to look beyond responsive *images* – to element queries, and beyond – we realize that we need a new name. Or at least a new “I.” We’ve set up a suggestion box [here](https://docs.google.com/forms/d/1dblfSFkzsdQtdilg_xpbcufHuvSW4r761xWHEm3t8W0/viewform).
 
 And yes, [“Insaneclownposse” has already been suggested](https://twitter.com/wilto/status/492323152303636480).
 
