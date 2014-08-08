@@ -2,7 +2,7 @@ To whit— the Blink and Gecko `picture` implementations are [all](http://bugzil
 
 ## [Picturefill 2.1 has landed](https://github.com/scottjehl/picturefill/releases/tag/2.1.0)
 
-The new version of the polyfill brings it in line with many of the nittier, grittier aspects of the spec’s parsing algorithms. Edge cases and errors should all be handled as-per-spec and identically to the first implementations. All the more reason to start using `picture` and `srcset` in production, now!
+The new version of the polyfill brings it in line with many of the nittier, grittier aspects of the spec’s parsing algorithms. Edge cases and errors should all be handled as-per-spec, and identically to the first implementations. All the more reason to start using `picture` and `srcset` in production, now!
 
 Other than that, quiet week. But it wasn’t completely without incident.
 
@@ -16,8 +16,9 @@ Like I always say, teach a page to `picture`, and it’ll serve users images tai
 
 More of this sort of CMS integration, please!
 
-Finally, [TAG](http://www.w3.org/2001/tag/)-alum and [#respimg](http://ircbot.responsiveimages.org/) lurker [Robin Berjon](http://berjon.com) published [a short article proposing a way forward for the HTML specification after HTML5](http://darobin.github.io/after5/). A biased TL;DR – make it work more like the RICG. Make developer-driven, feature-focused partial spec work not just easy, but the norm. Decentralize the specs and lower the barriers to entry. Sounds good to me!
+Finally, [TAG](http://www.w3.org/2001/tag/)-alum and [#respimg](http://ircbot.responsiveimages.org/) lurker [Robin Berjon](http://berjon.com) published [a short article proposing a way forward for the HTML specification after HTML5](http://darobin.github.io/after5/). A biased TL;DR – make it work more like the RICG. Make developer-driven, feature-focused, partial spec work not just easy, but the norm. Decentralize the specs and lower the barriers to entry. Sounds good to me!
 
 See you in a couple of weeks!
 
 —eric
+
