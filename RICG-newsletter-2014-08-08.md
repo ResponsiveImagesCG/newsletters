@@ -1,10 +1,10 @@
-So — the Blink and Gecko `picture` implementations are [all](http://bugzil.la/srcset-prefon) [but](http://bugzil.la/picture-prefon) [finished](https://codereview.chromium.org/401403003/) and IE is still [“considering”](http://status.modern.ie/imgsrcset) [things](http://status.modern.ie/pictureelement). Yoav’s WebKit work is facing some [initial technical hurdles](http://ircbot.responsiveimages.org/bot/log/respimg/2014-08-07#T85645). So it was a relatively quiet week around the RICG, but there was one bit of big news:
+So — the Blink and Gecko `picture` implementations are [all](http://bugzil.la/srcset-prefon) [but](http://bugzil.la/picture-prefon) [finished](https://codereview.chromium.org/401403003/) and IE is still [“considering”](http://status.modern.ie/imgsrcset) [things](http://status.modern.ie/pictureelement). Yoav’s WebKit work is facing some [initial technical hurdles](http://ircbot.responsiveimages.org/bot/log/respimg/2014-08-07#T85645). So it was a relatively quiet couple of weeks around the RICG, but there was one bit of big news:
 
 ## [Picturefill 2.1 has landed](https://github.com/scottjehl/picturefill/releases/tag/2.1.0)
 
 The new version of the polyfill brings it in line with many of the nittier, grittier aspects of the spec’s parsing algorithms. Edge cases and errors should all be handled as-per-spec, and identically to the first implementations. All the more reason to start using `picture` and `srcset` in production, now!
 
-Other than that, quiet week. But it wasn’t completely without incident.
+Other than that, a quiet fortnight. But it wasn’t completely without incident.
 
 ## Some other stuff happened, too
 
