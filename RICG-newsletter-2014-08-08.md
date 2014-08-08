@@ -1,4 +1,4 @@
-To whit— the Blink and Gecko `picture` implementations are [all](http://bugzil.la/srcset-prefon) [but](http://bugzil.la/picture-prefon) [finished](https://codereview.chromium.org/401403003/) and IE is still [“considering”](http://status.modern.ie/imgsrcset) [things](http://status.modern.ie/pictureelement). Yoav’s WebKit work is facing some [initial technical hurdles](http://ircbot.responsiveimages.org/bot/log/respimg/2014-08-07#T85645). So it was a relatively quiet week around the RICG, but there was one bit of big news:
+So — the Blink and Gecko `picture` implementations are [all](http://bugzil.la/srcset-prefon) [but](http://bugzil.la/picture-prefon) [finished](https://codereview.chromium.org/401403003/) and IE is still [“considering”](http://status.modern.ie/imgsrcset) [things](http://status.modern.ie/pictureelement). Yoav’s WebKit work is facing some [initial technical hurdles](http://ircbot.responsiveimages.org/bot/log/respimg/2014-08-07#T85645). So it was a relatively quiet week around the RICG, but there was one bit of big news:
 
 ## [Picturefill 2.1 has landed](https://github.com/scottjehl/picturefill/releases/tag/2.1.0)
 
