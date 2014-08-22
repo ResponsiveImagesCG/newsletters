@@ -26,7 +26,7 @@ True story.
 
 - [Marc Drummond is maintaining responsive images module in Drupal 8 and that is awesome because he is awesome](https://twitter.com/MarcDrummond/status/498188912087810051).
 - [A designer's guide to DPI](http://sebastien-gabriel.com/designers-guide-to-dpi/home)
-- There’s something exciting about [randos asking (and correctly answering!) questions about `picture` on StackOverflow](stackoverflow.com/questions/25396605/when-targeting-a-picture-element-in-css-should-we-use-img-or-picture-selector)
+- There’s something exciting about [randos asking (and correctly answering!) questions about `picture` on StackOverflow](http://stackoverflow.com/questions/25396605/when-targeting-a-picture-element-in-css-should-we-use-img-or-picture-selector)
 - Old `srcset` [is really, finally dead](https://twitter.com/respimg/status/500295619689594880).
 
 See you in a couple of weeks!
