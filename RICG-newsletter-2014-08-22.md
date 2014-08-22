@@ -20,7 +20,7 @@ Speaking of developer outreach and education, various RICG folks are giving lots
 - Yoav himself [will be leading two sessions at Velocity in New York City on September 16th](http://velocityconf.com/velocityny2014/public/schedule/speaker/155970) (20% discount with code “RESPIMG”)
 - ...and [sitting on the image formats panel at Edge Conf in San Francisco on September 20th](https://edgeconf.com/2014-sf/schedule).
 
-## So look I am being called to board a trans-continental flight and still have some links that I'd like to share.
+## So look I am being called to board a trans-continental flight and still have some links that I'd like to share so here they are
 
 True story. 
 
@@ -28,7 +28,6 @@ True story.
 - [A designer's guide to DPI](http://sebastien-gabriel.com/designers-guide-to-dpi/home)
 - There’s something exciting about [randos asking (and correctly answering!) questions about `picture` on StackOverflow](stackoverflow.com/questions/25396605/when-targeting-a-picture-element-in-css-should-we-use-img-or-picture-selector)
 - Old `srcset` [is really, finally dead](https://twitter.com/respimg/status/500295619689594880).
-]
 
 See you in a couple of weeks!
 
