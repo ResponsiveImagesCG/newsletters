@@ -18,7 +18,7 @@ Meanwhile, Yoav’s Blink implementation of the spec has – [with some fanfare]
 
 Here I’ll remind you that that same implementation is slated to ship to millions of Chrome stable users in 3-4 weeks. When it does, [we’ll be able to track developer usage](https://code.google.com/p/chromium/issues/detail?id=408797) on the excellent [chromestatus.com](http://www.chromestatus.com/metrics/feature/popularity). I, for one, very much look forward to having a front-row seat from which to watch the responsive-image-ification of the web in real time.
 
-## Oh and [we’re Big in Japan](http://kia-king.com/blog/tutorial/responsive-images-with-srcset/)
+## Oh and [we’re big in Japan](http://kia-king.com/blog/tutorial/responsive-images-with-srcset/)
 
 [Germany, too](http://blog.kulturbanause.de/2014/09/responsive-images-srcset-sizes-adaptive/)
 
