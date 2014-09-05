@@ -16,7 +16,7 @@ You know what? I love the internet.
 
 Meanwhile, Yoav’s Blink implementation of the spec has – [with some fanfare](http://blog.chromium.org/2014/08/chrome-38-beta-new-primitives-for-next.html) – made it’s way from Chrome Canary into the [Chrome Beta](https://www.google.com/chrome/browser/beta.html) channel. Huzzah!
 
-Here I’ll remind you that the implementation is slated to ship to millions of Chrome stable users in 3-4 weeks. When it does, [we’ll be able to track developer usage](https://code.google.com/p/chromium/issues/detail?id=408797) on the excellent [chromestatus.com](http://chromestatus.com). I, for one, very much look forward to watching the responsive-image-ification of the web in real time.
+Here I’ll remind you that that same implementation is slated to ship to millions of Chrome stable users in 3-4 weeks. When it does, [we’ll be able to track developer usage](https://code.google.com/p/chromium/issues/detail?id=408797) on the excellent [chromestatus.com](http://chromestatus.com). I, for one, very much look forward to watching the responsive-image-ification of the web in real time, from a front-row seat.
 
 ## Oh and [We’re Big in Japan](http://kia-king.com/blog/tutorial/responsive-images-with-srcset/)
 
@@ -25,3 +25,15 @@ Here I’ll remind you that the implementation is slated to ship to millions of 
 See you in a couple of weeks!
 
 —eric
+
+
+
+tour de fat tomorow biking at 11
+rain?
+georgia's at 4
+
+date tonight
+westword $10
+
+
+http://www.westword.com/events/oh-the-places-you-will-go--2975940/
