@@ -4,7 +4,7 @@
 
 ## Blowing up
 
-Ars Technica published a [Sunday-night feature about the history of the RICG](http://arstechnica.com/information-technology/2014/09/how-a-new-html-element-will-make-the-web-faster/)… and the internet weighed in.
+Ars Technica published a [Sunday-night feature about `picture` and the RICG](http://arstechnica.com/information-technology/2014/09/how-a-new-html-element-will-make-the-web-faster/)… and the internet weighed in.
 
 The feature (written by Scott Gilbertson) is excellent! [Go read it](http://arstechnica.com/information-technology/2014/09/how-a-new-html-element-will-make-the-web-faster/) if you haven’t already. Whereas most of the many articles about `picture` have been explanatory how-to tutorials written for web developers – focusing how the new markup works and how to use it – the Ars piece is all about people and process. It tells the story of the spec’s inception and maturation for the benefit of a general (though still tech-y) audience.
 
