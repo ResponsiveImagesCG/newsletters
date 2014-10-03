@@ -24,7 +24,7 @@ Meanwhile, over on the Filament Group blog, Scott Jehl (Picturefill author) [tak
 Scott’s post came out of a discussion of whether or not to include Picturefill in Drupal 8. Drupal’s developers are blazing all kinds of trails as [they work furiously to implement the new markup](https://github.com/ResponsiveImagesCG/newsletters/issues/62). Watching them [hash out a responsive images CMS UI](https://www.drupal.org/node/2334387) has been particularly fascinating.
 
 > Or to take arms against a sea of implementers<br />
-> and by dymanic attacks, oppose them. To DIY— feature creep—
+> and by dymanic [sic] attacks, oppose them. To DIY— feature creep—
 
 [“Thing is, canvas is PERFECT.”](https://miketaylr.com/posts/2014/09/picture-element-spec-hidden-logs.html)
 
