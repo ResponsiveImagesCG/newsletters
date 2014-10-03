@@ -12,7 +12,7 @@ While we wait, let’s recap a *bumper-crop* of responsive image chatter from th
 
 Jason Grigsby and Chris Coyier wrote a pair of [excellent](http://blog.cloudfour.com/dont-use-picture-most-of-the-time/) [articles](http://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/) that hammer home the distinction between the resolution-switching and art-direction use cases; `picture` is best reserved for the latter. When you’re not art-directing, use `srcset`!
 
-Chris gives the friendliest technical explanation of how the browser uses `srcset`, `sizes`, and `w` to pick a source that I’ve yet seen.
+Chris gives the friendliest technical explanation of how browsers actually use `srcset`, `sizes`, and `w` to pick a source that I’ve yet seen.
 
 And Jason asks: why do we call it “the `picture` spec”, anyways? Maybe we shouldn’t!
 
