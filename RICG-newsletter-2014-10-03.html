@@ -1,0 +1,72 @@
+<h1>Any day now</h1>
+
+<p>Teaser text: Chrome 38 is nigh, we have links galore and also Shakespeare for some reason.</p>
+
+<p>Chrome 38 — the first browser to support native responsive image markup – is due to be pushed out to the stable channel’s <a href="http://techcrunch.com/2013/05/15/googles-chrome-browser-now-has-750-million-active-users/">hundreds of millions of users</a> any day now. </p>
+
+<p><a href="https://www.youtube.com/watch?v=QINlm3vjnaY">Google’s</a> <a href="https://www.youtube.com/watch?v=Pzc5Dly_jEM">excited</a>.</p>
+
+<p>While we wait, let’s recap a <em>bumper-crop</em> of responsive image chatter from the past couple of weeks:</p>
+
+<blockquote>
+  <p>To <code>picture</code>, or not to <code>picture</code>– that is the question:</p>
+</blockquote>
+
+<p>Jason Grigsby and Chris Coyier wrote a pair of <a href="http://blog.cloudfour.com/dont-use-picture-most-of-the-time/">excellent</a> <a href="http://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/">articles</a> that hammer home the distinction between the resolution-switching and art-direction use cases; <code>picture</code> is best reserved for the latter. When you’re not art-directing, use <code>srcset</code>!</p>
+
+<p>Chris gives the friendliest technical explanation of how browsers actually use <code>srcset</code>, <code>sizes</code>, and <code>w</code> to pick a source that I’ve yet seen.</p>
+
+<p>And Jason asks: why do we call it “the <code>picture</code> spec”, anyways? Maybe we shouldn’t!</p>
+
+<blockquote>
+  <p>Whether tis nobler in the mind to polyfill<br />
+     The <code>srcset</code>s and <code>sizes</code>, outrageously awesome</p>
+</blockquote>
+
+<p>Meanwhile, over on the Filament Group blog, Scott Jehl (Picturefill author) <a href="http://filamentgroup.com/lab/to-picturefill.html">takes a hard look at some very hard questions</a>: why polyfill, ever? What are the benefits and what are the costs? Given the new markup’s native fallbacks, why polyfill responsive images, specifically? It’s a very thoughtful take; he comes out on the side of Picturefilling, for now.</p>
+
+<p>Scott’s post came out of a discussion of whether or not to include Picturefill in Drupal 8. Drupal’s developers are blazing all kinds of trails as <a href="https://github.com/ResponsiveImagesCG/newsletters/issues/62">they work furiously to implement the new markup</a>. Watching them <a href="https://www.drupal.org/node/2334387">hash out a responsive images CMS UI</a> has been particularly fascinating.</p>
+
+<blockquote>
+  <p>Or to take arms against a sea of implementers<br />
+     and by dymanic [sic] attacks, oppose them. To DIY— feature creep—</p>
+</blockquote>
+
+<p><a href="https://miketaylr.com/posts/2014/09/picture-element-spec-hidden-logs.html">“I will write the fresh hell out of a spec.”</a></p>
+
+<blockquote>
+  <p>No more; and by a speech or two we end<br />
+     The headache, and deliver a thousand natural talks<br />
+     That flesh out how-to.</p>
+</blockquote>
+
+<p>The videos from Yoav’s <a href="https://www.youtube.com/watch?v=GC3VgcltKKI">responsive images</a> and <a href="https://www.youtube.com/watch?v=i7yf_tR6kKc">preloader</a> talks at Velocity are up. And if the topic of preloaders fascinates (or befuddles), <a href="http://www.slideshare.net/AndyDavies/london-web-standards-20140922-pdf">Andy Davies slides from London Webstandards</a> are worth a look.</p>
+
+<p>Dave Newton gave a great respimg talk at Accessibility Camp Toronto; his slides are <a href="https://speakerdeck.com/newtron/using-responsive-images-responsibly-performance-and-accessibility">here</a> and <a href="https://github.com/nwtn/pres-respimg-perf-a11yto">here</a>. The Venn diagram explaining how responsive design, performance, accessibility, and progressive enhancement are all distinct, complimentary pieces of a strategy that reaches as many people as possible is a favorite.</p>
+
+<p>And last but not least, RICG Chair Mat Marquis <a href="http://www.lukew.com/ff/entry.asp?1922">gave a talk at An Event Apart Austin</a> and <a href="https://twitter.com/projekt202/status/514446031954534400">only threatened the audience with violence once</a>.</p>
+
+<blockquote>
+  <p>Tis an implementation<br />
+     Devoutly to be wish’d.</p>
+</blockquote>
+
+<p>I’ll say it: Microsoft is embracing an open stance towards the open web. First the Internet Explorer team <a href="https://status.modern.ie">let us know what they’re working on</a>; now they’ve taken things to another level entirely and are <a href="https://wpdev.uservoice.com/forums/257854-internet-explorer-platform">letting us <em>vote</em> on new features</a>. I think you know what to do:</p>
+
+<ul>
+<li><a href="https://wpdev.uservoice.com/forums/257854-internet-explorer-platform/suggestions/6261267-srcset-attribute-on-images">srcset</a></li>
+<li><a href="https://wpdev.uservoice.com/forums/257854-internet-explorer-platform/suggestions/6261271-picture-element">picture</a></li>
+</ul>
+
+<p>Those two are currently trailing Service Workers, the Shadow DOM, auto-update, and two different suggestions that IE’s rendering engine be abandoned entirely. Old IE-hating habits die hard!</p>
+
+<blockquote>
+  <p>To code— to commit. <br />
+     To commit— perchance to deploy: ay, there's the rub!</p>
+</blockquote>
+
+<p>Lastly, I want to point you to <a href="http://writings.orangegnome.com/writes/implementing-responsive-images-in-a-production-environment/">Brent Lineberry’s recap</a> of his team’s responsive image implementation on Emory’s <a href="http://goizueta.emory.edu/">Goizueta Business School site</a>. The website in question is large and complex; first-hand accounts of the rubber meeting the road like this are <em>invaluable</em>. I expect to read a lot more of them in the coming months as the dev community as a whole figures out how to best leverage the new features.</p>
+
+<p>See you in a couple of weeks!</p>
+
+<p>—eric</p>
