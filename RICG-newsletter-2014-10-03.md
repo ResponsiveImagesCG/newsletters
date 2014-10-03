@@ -1,8 +1,8 @@
 # Any day now
 
-Teaser text: Chrome 38 is nigh, we have links galore, and also Shakespeare for some reason.
+Teaser text: Chrome 38 is nigh, we have links galore and also Shakespeare for some reason.
 
-Chrome 38 — the first browser to support native, responsive image markup – is due to be pushed out to the stable channel’s [hundreds of millions of users](http://techcrunch.com/2013/05/15/googles-chrome-browser-now-has-750-million-active-users/) any day now. 
+Chrome 38 — the first browser to support native responsive image markup – is due to be pushed out to the stable channel’s [hundreds of millions of users](http://techcrunch.com/2013/05/15/googles-chrome-browser-now-has-750-million-active-users/) any day now. 
 
 [Google’s](https://www.youtube.com/watch?v=QINlm3vjnaY) [excited](https://www.youtube.com/watch?v=Pzc5Dly_jEM).
 
