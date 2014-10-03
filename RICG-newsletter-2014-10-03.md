@@ -26,7 +26,7 @@ Scott’s post came out of a discussion of whether or not to include Picturefill
 > Or to take arms against a sea of implementers<br />
 > and by dymanic [sic] attacks, oppose them. To DIY— feature creep—
 
-[“Thing is, canvas is PERFECT.”](https://miketaylr.com/posts/2014/09/picture-element-spec-hidden-logs.html)
+[“I will write the fresh hell out of a spec.”](https://miketaylr.com/posts/2014/09/picture-element-spec-hidden-logs.html)
 
 > No more; and by a speech or two we end<br />
 > The headache, and deliver a thousand natural talks<br />
