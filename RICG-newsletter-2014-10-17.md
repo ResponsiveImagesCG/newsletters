@@ -36,7 +36,7 @@ Tooling to take care of some of the tedious and error-prone bits of a responsive
 
 Stephen Max has published [a Grunt plugin](https://github.com/smaxtastic/grunt-responsive-images-extender) that will auto-generate image versions and write your `scrset`s for you.
 
-And Alexander Farkas published a truly wondrous thing, a [bit of Javascript](https://github.com/aFarkas/lazysizes) called “lazysizes” which lazily-loads images and writes your `sizes` for you, on the fly. This not only saves you from the trouble of writing `sizes` by hand — it lets you to keep your markup and presentation entirely separate!
+And Alexander Farkas published a truly wondrous thing, a bit of Javascript called [“lazysizes”](https://github.com/aFarkas/lazysizes) which lazily-loads images and writes your `sizes` for you, on the fly. This not only saves you from the trouble of writing `sizes` by hand — it lets you to keep your markup and presentation entirely separate!
 
 
 ## Keep those articles coming
