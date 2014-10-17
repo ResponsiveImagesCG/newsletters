@@ -32,7 +32,7 @@ Those are the percentages of Chrome pageloads that are utilizing responsive imag
 
 Or, wait, a better idea: let computers do it!
 
-Tooling to take care of some of the tedious and error-prone bits of a responsive image implementation for you is already here to help.
+Tooling to take care of some of the tedious and error-prone bits of a responsive image implementation is already here to help.
 
 Stephen Max has published [a Grunt plugin](https://github.com/smaxtastic/grunt-responsive-images-extender) that will auto-generate image versions and write your `scrset`s for you.
 
