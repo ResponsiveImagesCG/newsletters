@@ -51,7 +51,7 @@ The more how-to articles and personal implementation accounts, the merrier. Here
 
 In it, Shane opines:
 
-> One of the most confusing aspects is the fact that the widths are based on the viewport and not their containing elements. It would be cool if the browser was smart enough to know how big an image should be inside it’s container.
+> One of the most confusing aspects is the fact that the widths are based on the viewport and not their containing elements. It would be cool if the browser was smart enough to know how big an image should be inside its container.
 
 Sounds a lot like [Element Queries](http://responsiveimagescg.github.io/eq-usecases/) to me!
 
