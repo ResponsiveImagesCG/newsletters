@@ -44,7 +44,7 @@ There’s been no SCAREcity of miscellaneous links over the last two weeks:
 
 - The NCC Group broke [Betteridgde’s Law of Headlines](http://en.wikipedia.org/wiki/Betteridge's_law_of_headlines) by asking, [“Is it time to start using `srcset` and the `picture` element?”](https://www.nccgroup.com/en/blog/2014/10/is-it-time-to-start-using-srcset-and-the-picture-element/)
 
-- Eiji Kitamura published a bit of Javascript that uses [Service Workers](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) (which were just [green-lighted in Blink](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/QfxPGw0kJW8/bsIQTZu0UCkJ)) to auto-inject `srcset` markup based on a global manifest. Yoav [asks](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/QfxPGw0kJW8/bsIQTZu0UCkJ), “who will write the tool that accomplishes the same task with a pre-processor?”
+- Eiji Kitamura published a bit of Javascript that uses [Service Workers](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) (which were just [green-lighted in Blink](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/QfxPGw0kJW8/bsIQTZu0UCkJ)) to manipulate image requests based on a global manifest. Yoav [asks](https://twitter.com/yoavweiss/status/525568123333017600), “who will write the tool that does the same thing server-side?”
 
 - Finally, in my favorite post this week, Brad Frost [showed us his shockingly simple responsive images strategy](http://bradfrost.com/blog/post/responsive-images/), and, in keeping with the philosophy of minimalism embodied in the markup itself, didn’t explain the rationale behind it *at all*. But one take-away is clear: respimg can be very simple; this stuff is only as complicated as we make it.
 
