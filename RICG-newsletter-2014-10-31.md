@@ -42,7 +42,7 @@ There’s been no SCAREcity of miscellaneous links over the last two weeks:
 
 - [Picturefill 2.2 hit beta](https://github.com/scottjehl/picturefill/releases/tag/2.2.0-beta). The new version brings better spec compliance, better performance, fewer bugs, and it plays nicely with Asynchronous Module Definitions.
 
-- The NCC Group contradicted [Betteridgde’s Law of Headlines](http://en.wikipedia.org/wiki/Betteridge's_law_of_headlines) by asking, [“Is it time to start using `srcset` and the `picture` element?”](https://www.nccgroup.com/en/blog/2014/10/is-it-time-to-start-using-srcset-and-the-picture-element/)
+- The NCC Group broke [Betteridgde’s Law of Headlines](http://en.wikipedia.org/wiki/Betteridge's_law_of_headlines) by asking, [“Is it time to start using `srcset` and the `picture` element?”](https://www.nccgroup.com/en/blog/2014/10/is-it-time-to-start-using-srcset-and-the-picture-element/)
 
 - Eiji Kitamura published a bit of Javascript that uses [Service Workers](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) (which were just [green-lighted in Blink](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/QfxPGw0kJW8/bsIQTZu0UCkJ)) to auto-inject `srcset` markup based on a global manifest. Yoav [asks](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/QfxPGw0kJW8/bsIQTZu0UCkJ), “who will write the tool that accomplishes the same task with a pre-processor?”
 
