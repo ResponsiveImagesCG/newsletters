@@ -3,7 +3,7 @@ Teaser text: Deep and sincere apologies for all of the HORRORble puns!
 
 ## Scope creepy!
 
-The RICG is about to tackle [Element Queries](http://responsiveimagescg.github.io/eq-usecases/). To prepare for the imminent broadening of the our scope of work, we’re doing some housekeeping:
+The RICG is about to tackle [Element Queries](http://responsiveimagescg.github.io/eq-usecases/). To prepare for this imminent broadening of our scope of work, we’re doing some housekeeping:
 
 - It’s official! We’re now the Responsive *Issues* Community Group
 - We’ve got a new website, and it lives at [ricg.io](http://ricg.io)
