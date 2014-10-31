@@ -46,7 +46,7 @@ There’s been no SCAREcity of respimg links over the last two weeks:
 
 - Eiji Kitamura published a bit of Javascript that uses [Service Workers](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) (which were just [green-lighted in Blink](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/QfxPGw0kJW8/bsIQTZu0UCkJ)) to manipulate image requests based on a global manifest. Yoav [asks](https://twitter.com/yoavweiss/status/525568123333017600), “who will write the tool that does the same thing server-side?”
 
-- Finally, in my favorite post this week, Brad Frost [showed us his shockingly simple responsive images strategy](http://bradfrost.com/blog/post/responsive-images/), and, in keeping with the philosophy of minimalism embodied in the markup itself, didn’t explain the rationale behind it *at all*. But one take-away is clear: respimg can be very simple; this stuff is only as complicated as we make it.
+- Finally, in my favorite post of the fortnight, Brad Frost [showed us his shockingly simple responsive images strategy](http://bradfrost.com/blog/post/responsive-images/). In keeping with the philosophy of minimalism embodied in the markup itself, he didn’t explain the rationale behind it *at all*. But one take-away is clear: respimg can be very simple; this stuff is only as complicated as we make it.
 
 See you in a couple of weeks!
 
