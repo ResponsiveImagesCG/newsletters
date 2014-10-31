@@ -38,7 +38,7 @@ The [video from Wilto’s excellent talk at Refresh Boston](http://www.futureins
 
 ## Tricks and treats
 
-There’s been no SCAREcity of miscellaneous links over the last two weeks:
+There’s been no SCAREcity of respimg links over the last two weeks:
 
 - [Picturefill 2.2 hit beta](https://github.com/scottjehl/picturefill/releases/tag/2.2.0-beta). The new version brings better spec compliance, better performance, fewer bugs, and it plays nicely with Asynchronous Module Definitions.
 
