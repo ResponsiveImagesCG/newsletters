@@ -6,7 +6,7 @@ Teaser text: Deep and sincere apologies for all of the HORRORble puns!
 The RICG is about to tackle [Element Queries](http://responsiveimagescg.github.io/eq-usecases/). To prepare for this imminent broadening of our scope of work, we’re doing some housekeeping:
 
 - It’s official! We’re now the Responsive *Issues* Community Group
-- We’ve got a new website, and it lives at [ricg.io](http://ricg.io)
+- We’ve got a new website, and it lives at [ricg.io](http://ricg.io). It’s a bit sparse at the moment but it’s a work in progress.
 
 Element Queries are a GHOULd idea! But it’s still very, very early days; to draft a use cases document, SPOOKification, and ultimately bring them to browsers we’ll need all the help we can get. ContriBOOte!
 
@@ -45,8 +45,6 @@ There’s been no SCAREcity of respimg links over the last two weeks:
 - The NCC Group broke [Betteridgde’s Law of Headlines](http://en.wikipedia.org/wiki/Betteridge's_law_of_headlines) by asking, [“Is it time to start using `srcset` and the `picture` element?”](https://www.nccgroup.com/en/blog/2014/10/is-it-time-to-start-using-srcset-and-the-picture-element/)
 
 - Eiji Kitamura published a bit of Javascript that uses [Service Workers](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) (which were just [green-lighted in Blink](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/QfxPGw0kJW8/bsIQTZu0UCkJ)) to manipulate image requests based on a global manifest. Yoav [asks](https://twitter.com/yoavweiss/status/525568123333017600), “who will write the tool that does the same thing server-side?”
-
-- Finally, in my favorite post of the fortnight, Brad Frost [showed us his shockingly simple responsive images strategy](http://bradfrost.com/blog/post/responsive-images/). In keeping with the philosophy of minimalism embodied in the markup itself, he didn’t explain the rationale behind it *at all*. But one take-away is clear: respimg can be very simple; this stuff is only as complicated as we make it.
 
 See you in a couple of weeks!
 
