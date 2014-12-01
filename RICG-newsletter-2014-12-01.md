@@ -36,9 +36,9 @@ There are [RICG stickers](http://www.stickermule.com/user/1069094592/stickers)! 
 
 I always loved a good turkey sandwich.
 
-- Jason Grigsby will be talking respimg at Event Apart in Seattle and Atlanta in the coming months, 
+- Jason Grigsby will be talking respimg at An Event Apart in both [Seattle](http://aneventapart.com/event/seattle-2015) and [Atlanta](http://aneventapart.com/event/atlanta-2015)
 - [Mat will be speaking about respimg, too](http://www.meetup.com/boston_JS/events/218914814/) – at Boucoup on December 17th in Boston.
-- Steven Bradley over at Vanseo design has been on fire recently, posting a [series of great posts](http://www.vanseodesign.com/tag/responsive-images/) about the new respimg features, culminating most recently in [this nifty demo](http://www.vanseodesign.com/web-design/responsive-images-demo/).
+- Steven Bradley over at Vanseo design has been on fire recently, posting a [series of great posts](http://www.vanseodesign.com/tag/responsive-images/) about the new respimg features, culminating in [this nifty demo](http://www.vanseodesign.com/web-design/responsive-images-demo/).
 - Emil Björklund threw up [a little JSBin](http://jsbin.com/noxuze/) which shows and tells the benefits of using `picture` to deliver WebPs with JPEG fallbacks.
 - Jonathan Hollin [wrote up his personal respimg workflow](https://www.perpetual-beta.org/weblog/srcset-production-factory.html), which uses [Hazel](http://www.noodlesoft.com/hazel.php) to automatically generate variously-sized sources and a markup snippet as soon as the images are dropped in a folder.
 - Scientia Mobile wrote [an article]((http://www.scientiamobile.com/page/responsive-images-specification-real-world-scenarios)) explaining the thinking behind their new (device-detection-centric) server-side auto-resizer, which stirred up some [ambivolent](https://twitter.com/yoavweiss/status/538258500372422656) [react](https://twitter.com/wilto/status/538413818763030528)[ions](https://twitter.com/wilto/status/538414438664372224).
