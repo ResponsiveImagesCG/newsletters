@@ -9,7 +9,7 @@ On the problem definition front — [it has come to our attention](http://ircbot
 
 The [responsive images use cases document](http://usecases.responsiveimages.org/) served as a rock and a guiding light through the three-year onslaught of failed respimg proposals. We need, above all else as we embark on this journey, a strong use cases doc. Help us write one.
 
-Simultaneously, the RICG is taking a stab at realizing a proposed solution. Johnathan Neal has a functional (totally experimental, and never-to-be-supported) [element query prototype](https://github.com/jonathantneal/hitch-element-queries) up, running, and ready for holy-smokes-do-*not*-use-this-thing-in-anything-that-remotely-resembles-production use today. Johnathan’s repo is a hacky little glimpse of one possible EQ ending, right here at the beginning of our story, which we can use to concretely explore the problem space, [write demos](https://github.com/ResponsiveImagesCG/eq-demos), and provide feedback that will inform EQ work going forward. Huzzah!
+Simultaneously, the RICG is taking a stab at realizing a proposed solution. Johnathan Neal has a functional (totally experimental, and never-to-be-supported) [element query prototype](https://github.com/jonathantneal/hitch-element-queries) up and running. Johnathan’s repo is a hacky little glimpse of one possible EQ ending, right here at the beginning of our story, which we can use to concretely explore the problem space, [write demos](https://github.com/ResponsiveImagesCG/eq-demos), and provide feedback that will inform EQ work going forward. Huzzah!
 
 
 ## [Picturefill 2.2 hit stable](https://github.com/scottjehl/picturefill/releases/tag/2.2.0)
