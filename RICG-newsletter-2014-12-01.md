@@ -22,7 +22,7 @@ And we’re going to need more hands on keyboards to get 2.3 out the door. Mat w
 True story: I drove 800 miles to Kansas City a fortnight ago to be a best man in a wedding and only *then* did it dawn on me that I wouldn’t be able to write both a toast and a newsletter before Friday. Oops. Mat bailed me out — [in fine form](http://lists.w3.org/Archives/Public/public-respimg/2014Nov/0018.html). Thanks, Mat.
 
 
-## Respimg deployment spiking
+## Respimg deployment is spiking
 
 A while back I got pretty excited about chromestatus.com adding use counters for responsive image features. I did so in anticipation of being able to show you [charts](https://www.chromestatus.com/metrics/feature/timeline/popularity/524) [like](https://www.chromestatus.com/metrics/feature/timeline/popularity/523) [these](https://www.chromestatus.com/metrics/feature/timeline/popularity/521): responsive image markup adoption is surging like a bat out of aitch-eeee-triple-[hockey-sticks](http://en.wikipedia.org/wiki/Hockey_stick_graph).
 
