@@ -19,7 +19,7 @@ And we’re going to need more hands on keyboards to get 2.3 out the door. Mat w
 
 ## Speaking of Mat writing eloquently
 
-True story: I drove 800 miles to Kansas City a fortnight ago to be a best man in a wedding and only *then* did it dawn on me that I wouldn’t be able to write both a toast and a newsletter before Friday. Oops. Mat bailed me out — [in fine form](http://lists.w3.org/Archives/Public/public-respimg/2014Nov/0018.html). Thanks, Mat.
+True story: I drove 602 miles to Kansas City a fortnight ago to be a best man in a wedding and only *then* did it dawn on me that I wouldn’t be able to write both a toast and a newsletter before Friday. Oops. Mat bailed me out — [in fine form](http://lists.w3.org/Archives/Public/public-respimg/2014Nov/0018.html). Thanks, Mat.
 
 
 ## Respimg deployment is spiking
