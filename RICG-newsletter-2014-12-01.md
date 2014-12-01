@@ -1,5 +1,5 @@
 # Use Cases, Use Counters, and Stickers
-**Teaser Text:** Tryptophan-and-gratitude delayed Cyber Monday RICG newsletter edition
+**Teaser Text:** It is Cyber Monday, the newsletter’s late, and I am full of tryptophan and gratitude
 
 ## Element Queries progress
 
