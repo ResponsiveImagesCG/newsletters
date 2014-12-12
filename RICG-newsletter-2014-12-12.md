@@ -14,7 +14,7 @@ This is *huge* news; it means that `x` descriptors have or will soon come to [ev
 
 ## RICG members talk at talks
 
-[Here’s](http://www.ami.ca/AMI-tv/Pages/AMI-Inside.aspx) a recap of [Dave Newton’s September talk at Accessibility Camp Toronto](https://speakerdeck.com/newtron/using-responsive-images-responsibly-performance-and-accessibility). Respimg discussions start at the eight minute mark; Newtron takes center stage from 9:22–16:50. The talk and the interview are great, and hey! Nice shirt!
+[Here’s](http://www.ami.ca/AMI-tv/Pages/AMI-Inside.aspx) a video recap of [Dave Newton’s September talk at Accessibility Camp Toronto](https://speakerdeck.com/newtron/using-responsive-images-responsibly-performance-and-accessibility). Respimg discussions start at the eight minute mark; Newtron takes center stage from 9:22–16:50. The talk and the interview are great, and hey! Nice shirt!
 
 And apparently Yoav brought the house down at [SmashingConf Whistler this past week](http://smashingconf.com/speakers/yoav-weiss). “Responsive images are <del>coming</del> here!” Yoav’s slides are [here](http://yoavweiss.github.io/smashingconf_whistler/#/).
 
