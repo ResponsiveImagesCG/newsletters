@@ -10,7 +10,7 @@ This is *huge* news; it means that `x` descriptors have or will soon come to [ev
 
 `w` descriptors, `sizes`, `picture`, and all of the rest are still officially “under consideration” (and not “in development”), but [from the looks of it](https://twitter.com/gregwhitworth/status/542075784014204929) this represents a firmly planted first step on the path towards a full respimg implementation in IE.
 
-(And it certainly dosen’t hurt the RICG’s unofficial [1% in 2014 campaign](https://twitter.com/zcorpan/status/542048849641340931).)
+(And it certainly doesn’t hurt the RICG’s unofficial [1% in 2014 campaign](https://twitter.com/zcorpan/status/542048849641340931).)
 
 ## RICG members talk at talks
 
