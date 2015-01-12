@@ -49,8 +49,6 @@ Everything I’ve spoken of so far is mop-up. The biggest thing on the RICG’s 
 - Or just bring your EQ questions, concerns, hopes, and dreams to the RICG [mailing list](http://lists.w3.org/Archives/Public/public-respimg/), [IRC channel](http://ircbot.responsiveimages.org/), or the [Use Cases GitHub repo](https://github.com/ResponsiveImagesCG/eq-usecases/issues).
 
 <blockquote>
-It’s 2015 and Responsive <em>Issues</em> are our game,<br />
-So let me whistle and shout, and call you by name:<br />
 On implementor, on spec editor, on randos and friends,<br />
 On developers writing CSS, HTML, and, uh, code with parens?<br />
 To the top of the porch! To the top of the wall!<br />
