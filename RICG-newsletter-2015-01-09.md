@@ -28,7 +28,7 @@ How to deal with all of these incomplete and in-development implementations, in 
 
 The RICG continues to [make](https://twitter.com/jeremiahjmartin/status/542775285049876480) a [lot](http://aneventapart.com/event/atlanta-2015) of [clatter](http://www.futureinsights.com/home/responsive-images-are-here-its-up-to-you-to-make-the-web-for.html) about what is the matter with non-responsive images.
 
-And it is working. I’m addicted to checking the [Chromestatus](https://www.chromestatus.com/metrics/feature/timeline/popularity/523) [usage](https://www.chromestatus.com/metrics/feature/timeline/popularity/524) [charts](https://www.chromestatus.com/metrics/feature/timeline/popularity/521), watching them go up and up. It’s uniquely gratifying to see the RICG’s work reverberate across the web in real time.
+And it is working. I’m addicted to checking the [Chromestatus](https://www.chromestatus.com/metrics/feature/timeline/popularity/523) [usage](https://www.chromestatus.com/metrics/feature/timeline/popularity/524) [charts](https://www.chromestatus.com/metrics/feature/timeline/popularity/521), watching them go up and up. It’s uniquely gratifying to see the RICG’s work reverberate across the web.
 
 Getting respimg baked into as many CMSes as possible will probably do more than anything to push those numbers up. [Drupal](https://www.drupal.org/node/2260061) and [Wordpress](https://github.com/ResponsiveImagesCG/wp-tevko-responsive-images) are in our sights.
 
