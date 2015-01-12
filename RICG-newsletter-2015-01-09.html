@@ -1,0 +1,57 @@
+<h1>Taking stock</h1>
+
+<p><strong>Teaser text:</strong> ’Twas two weeks after Christmas...</p>
+
+<p>I signed the <a href="https://github.com/ResponsiveImagesCG/newsletters/blob/master/RICG-newsletter-2014-12-12.md">last newsletter</a> “see you in a couple of weeks!” ... four weeks ago. Oops! Food, friends, festivities, and family happened, and I happily dropped off of the face of the internet for a month. After catching up on the logs, lists and repos, it seems I wasn’t the only one. The RICG as a whole seems to have collectively settled our brains for a long winter’s nap. As we re-start our engines, now seems like an excellent time to take stock of where the RICG is, and what we’re hoping to achieve in the new year.</p>
+
+<h2>Browser implementations</h2>
+
+<p>Respimg features are under active development in every major rendering engine.</p>
+
+<p>Blink is the only engine with a full, shipping, implementation of the spec. Blink supports <code>srcset</code> with both <code>w</code> and <code>x</code> descriptors, <code>picture</code>, <code>source media</code> <em>and</em> <code>source type</code>. This is not to say that Blink’s implementation is done, of course; Yoav (so lively and quick) <a href="https://codereview.chromium.org/839783002/">continues to polish</a>; I expect Blink’s <code>srcset</code> picking-process, especially, to get more sophisticated over the coming year, perhaps incorporating user preferences and/or bandwidth-awareness.</p>
+
+<p>A full respimg implementation should be landing in Gecko soon, but after point-man John Schoenick left Mozilla for a position at Valve back in November, progress has slowed. John <a href="http://ircbot.responsiveimages.org/bot/log/respimg/2015-01-08#T107603">isn’t yet sure</a> whether he’ll complete the implementation himself or hand it off to someone else; either way, the lion’s share of the work has been done, so hopefully this lands soon.</p>
+
+<p>Webkit currently supports <code>srcset</code> with <code>x</code> descriptors, and Yoav is <a href="https://bugs.webkit.org/show_bug.cgi?id=137496">laying</a> the <a href="https://bugs.webkit.org/show_bug.cgi?id=134488">foundations</a> for a full implementation. He’s doing what he can, but patch review times have been lengthy and communication from the core WebKit team seems a bit sporadic.</p>
+
+<p>Finally, <a href="http://blogs.msdn.com/b/ie/archive/2014/12/08/status-roadmap-update-srcset-lt-main-gt-element-and-date-inputs-in-development.aspx">the IE team announced in December</a> that they’re actively implementing <code>srcset</code> with <code>x</code> descriptors. Better yet, they continue to wink their eyes and twist their heads re: the rest of the spec’s features (which are officially still “under consideration”) in ways that give me to know we have nothing to dread.</p>
+
+<h2>Picturefill development</h2>
+
+<p>How to deal with all of these incomplete and in-development implementations, in the meantime? With <a href="https://github.com/scottjehl/picturefill">Picturefill</a> of course! I can’t say anything about the state of the Picturefill better than <a href="https://github.com/scottjehl/picturefill/issues/374">Mat did here</a> — version 2.2 provides a great polyfill that thousands of developers are relying on each and every day, but to achieve total spec compliance and optimal performance, there’s work to be done.</p>
+
+<h2>Developer evangelism</h2>
+
+<p>The RICG continues to <a href="https://twitter.com/jeremiahjmartin/status/542775285049876480">make</a> a <a href="http://aneventapart.com/event/atlanta-2015">lot</a> of <a href="http://www.futureinsights.com/home/responsive-images-are-here-its-up-to-you-to-make-the-web-for.html">clatter</a> about what is the matter with non-responsive images.</p>
+
+<p>And it is working. I’m addicted to checking the <a href="https://www.chromestatus.com/metrics/feature/timeline/popularity/523">Chromestatus</a> <a href="https://www.chromestatus.com/metrics/feature/timeline/popularity/524">usage</a> <a href="https://www.chromestatus.com/metrics/feature/timeline/popularity/521">charts</a>, watching them go up and up. It’s uniquely gratifying to see the RICG’s work reverberate across the web.</p>
+
+<p>Getting respimg baked into as many CMSes as possible will probably do more than anything to push those numbers up. <a href="https://www.drupal.org/node/2260061">Drupal</a> and <a href="https://github.com/ResponsiveImagesCG/wp-tevko-responsive-images">Wordpress</a> are in our sights.</p>
+
+<h2>Spec work</h2>
+
+<p>The CSS <a href="http://dev.w3.org/csswg/css-images-3/#image-set-notation"><code>image-set()</code> spec</a> is but a skeleton, full of red issue boxes <em>aka</em> holes.</p>
+
+<p>And, though the respimg-in-markup spec has largely settled down, there are a few <a href="https://github.com/ResponsiveImagesCG/picture-element/labels/onhold">on-hold issues</a> in the repo that constitute a roadmap for future development. Once the first round of implementations stabilizes, expect more descriptors to be added to <code>srcset</code>: <code>h</code>, <code>type()</code>, and maybe <code>integrity()</code>.</p>
+
+<h2>Element queries</h2>
+
+<p>Everything I’ve spoken of so far is mop-up. The biggest thing on the RICG’s plate in 2015 isn’t related to responsive images at all. It’s Element Queries. EQs are currently just a vision, dancing in our heads. If we’re going to make them concrete in 2015, we’re going to need all of the help we can get. Perhaps you, good webizen, have made some sort of resolution recently to become more involved in web standards, to contribute to your professional community, or to undertake more ambitious, challenging, and meaningful work? Contribute!</p>
+
+<ul>
+<li>Use <a href="https://github.com/jonathantneal/hitch-element-queries">an experimental prollyfill</a> to get a feel for what sorts of problems Element Queries are good at solving.</li>
+<li>Help us codify those use cases in <a href="https://github.com/ResponsiveImagesCG/eq-usecases">a document that will guide all future work</a>.</li>
+<li>Publish neat demos in our currently-empty <a href="https://github.com/ResponsiveImagesCG/eq-demos">demo repo</a>.</li>
+<li>Or just bring your EQ questions, concerns, hopes, and dreams to the RICG <a href="http://lists.w3.org/Archives/Public/public-respimg/">mailing list</a>, <a href="http://ircbot.responsiveimages.org/">IRC channel</a>, or the <a href="https://github.com/ResponsiveImagesCG/eq-usecases/issues">Use Cases GitHub repo</a>.</li>
+</ul>
+
+<blockquote>
+On implementor, on spec editor, on randos and friends,<br />
+On developers writing CSS, HTML, and, uh, code with parens?<br />
+To the top of the porch! To the top of the wall!<br />
+Let us make modular components that adapt based on their layout size a reality for all!
+</blockquote>
+
+<p>See you in a couple of weeks! (for reals this time)</p>
+
+<p>—eric</p>
