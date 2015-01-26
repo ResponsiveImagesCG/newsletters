@@ -6,6 +6,6 @@ The correct link to Jason Grigsby’s post about using `picture` and `source` fo
 
 [http://blog.cloudfour.com/when-to-use-picture-for-resolution-switching/](http://blog.cloudfour.com/when-to-use-picture-for-resolution-switching/)
 
-I am an ass. The extension has been uninstalled. My deepest apologies to the Cloud Four team.
+The only butt here is me. The extension has been uninstalled. My deepest apologies to the Cloud Four team.
 
 —eric
