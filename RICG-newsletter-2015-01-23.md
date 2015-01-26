@@ -4,9 +4,9 @@
 
 ## Responsive images in WordPress
 
-Let’s talk about [WordPress](https://wordpress.org). According to some [websites](http://trends.builtwith.com/cms) that I just [found](https://managewp.com/14-surprising-statistics-about-wordpress-usage), the venerable pile of PHP and MySQL that we call “WordPress” serves up *1 in every 5 websites* and runs *more than half* of all websites that use a CMS at all.
+Let’s talk about [WordPress](https://wordpress.org). According to some [websites](http://trends.builtwith.com/cms) that I just [found](https://managewp.com/14-surprising-statistics-about-wordpress-usage), the venerable pile of PHP and MySQL that we call “WordPress” serves up *1 in every 5 websites* and runs *more than half* of all websites that use a CMS.
 
-So it’s high time that WordPress had proper responsive image support. Tim Evko wrote [a fine blog post](http://web-design-weekly.com/2015/01/20/ricg-responsive-images-plugin/) about the efforts that he, along with our illustrious chair and a few members of the WordPress core team, has made to create a drop-in responsive images plugin for WordPress. The plugin can be had [here](https://wordpress.org/plugins/ricg-responsive-images/) and its source lives [here](https://github.com/ResponsiveImagesCG/wp-tevko-responsive-images). It does the hard work of creating a range of source files from a single high-resolution image, and marking them up with `srcset` and `sizes`. If you want to art-direct your WordPress-hosted images, you’ll need to use `picture`; as luck has it, Rory Douglas [wrote a thing](http://terrificwebdesign.net/use-case/) about how to do *that* last week, too.
+So it’s high time that WordPress had proper responsive image support. Tim Evko wrote [a fine blog post](http://web-design-weekly.com/2015/01/20/ricg-responsive-images-plugin/) about the efforts that he, along with our illustrious chair and a few members of the WordPress core team, has made to create a drop-in responsive images plugin for WordPress. The plugin can be had [here](https://wordpress.org/plugins/ricg-responsive-images/) and its source lives [here](https://github.com/ResponsiveImagesCG/wp-tevko-responsive-images). It does the hard work of creating a range of source files from a single high-resolution image and marking them up with `srcset` and `sizes`. If you want to art-direct your WordPress-hosted images, you’ll need to use `picture`; as luck has it, Rory Douglas [wrote a thing](http://terrificwebdesign.net/use-case/) about how to do *that* last week, too.
 
 ## Alternate formats
 
@@ -19,7 +19,7 @@ Jason Grigsby [posted a thing about `picture` and `type`-switching on the Cloud 
 
 ## Grab bag
 
-A loads’o’links:
+A load’o’links:
 
 - Bruce Lawson [wrote a blog post](http://www.brucelawson.co.uk/2015/why-we-cant-do-real-responsive-images-with-css-or-javascript/) in preparation for an upcoming talk in Barcelona (next month at the [Awwwards conference](http://conference.awwwards.com)) which answers everybody’s first question about responsive images: why a markup solutuion? Why not JavaScript or CSS?
 - Art direction can be a hard use-case to understand if you value content parity. [This post about adapting album art for cassettes](http://needmoredesigns.com/blog/early-responsive-design/) helped me wrap my mind around it back in the day; I recently stumbled across [an exploration into responsive logos](http://www.responsivelogos.co.uk/) that hit those same, sweet, “art direction is not only valid — it’s vital” notes for me.
