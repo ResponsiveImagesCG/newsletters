@@ -6,7 +6,7 @@ I'm going to open with a quote from Jason Grigsby, from his recent appearance on
 
 > I think even though responsive images is something that we’ve been talking about for quite some time, that really 2015 is going to be the year that web developers as a whole now are going to be, “Now we’ve got the tools. How do we use them?”
 
-The RICG researched use cases, labeled them “responsive images,” built consensus around a solution, spec’d it and implemented it in browsers. Now comes the hard part: how do we, both as individual developers working on individual projects, and as evangelists looking to respimg-ify the web as a whole, get responsive images into *webpages*?
+The RICG researched use cases, labeled them “responsive images,” built consensus around a solution, spec’d it, and implemented it in browsers. Now comes the hard part: how do we, both as individual developers working on individual projects, and as evangelists looking to respimg-ify the web as a whole, get responsive images into *webpages*?
 
 ## Trailblazers
 
