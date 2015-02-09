@@ -49,7 +49,7 @@ Given that this leans slightly towards MOAR NEWSLETTERS, we’ll change nothing,
 ## Grab bag
 
 - Here’s a smashing [video of Yoav’s respimg talk in Whistler](http://vimeo.com/117250453)
-(oh and he’s giving a whole workshop at [SmashingConf Oxford](http://smashingconf.com/workshops/yoav-weiss).
+(oh and he’s giving a whole workshop at [SmashingConf Oxford](http://smashingconf.com/workshops/yoav-weiss)).
 
 - Printing responsive images? [Printing responsive images!](https://www.w3.org/Bugs/Public/show_bug.cgi?id=27864#c2)
 
