@@ -44,7 +44,7 @@ The results from [last week’s poll](https://docs.google.com/forms/d/1c_pQqkwOh
 - 43% of you want fortnightly newsletters (a.k.a. the status quo)
 - 14% of you want weekly newsletters
 
-Given that this leans slightly towards MOAR NEWSLETTERS, we’ll change nothing, and continue to send one of these things to you every couple of weeks.
+Given that this leans slightly towards MOAR NEWSLETTERS, we’ll change nothing, and continue to send one of these things to you every two weeks.
 
 ## Grab bag
 
