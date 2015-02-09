@@ -1,50 +1,59 @@
-# New website, new name
-Teaser text: Deep and sincere apologies for all of the HORRORble puns!
+# The Hard Part
 
-## Scope creepy!
+**Teaser text:** “Now we’ve got the tools. How do we use them?”
 
-The RICG is about to tackle [Element Queries](http://responsiveimagescg.github.io/eq-usecases/). To prepare for this imminent broadening of our scope of work, we’re doing some housekeeping:
+I'm going to open with a quote from Jason Grigsby, from his recent appearance on [the UIE Brain Sparks podcast](http://www.uie.com/brainsparks/2015/02/02/jason-grigsby-real-world-responsive-web-design/):
 
-- It’s official! We’re now the Responsive *Issues* Community Group
-- We’ve got a new website, and it lives at [ricg.io](http://ricg.io). It’s a bit sparse at the moment but it’s a work in progress.
+> I think even though responsive images is something that we’ve been talking about for quite some time, that really 2015 is going to be the year that web developers as a whole now are going to be, “Now we’ve got the tools. How do we use them?”
 
-Element Queries are a GHOULd idea! But it’s still very, very early days; to draft a use cases document, SPOOKification, and ultimately bring them to browsers we’ll need all the help we can get. ContriBOOte!
+The RICG researched use cases, labeled them “responsive images,” built consensus around a solution, spec’d it and implemented it in browsers. Now comes the hard part: how do we, both as individual developers working on individual projects, and as evangelists looking to respimg-ify the web as a whole, get responsive images into *webpages*?
 
+## Trailblazers
 
-## image-spook()
+Ethan Marcotte’s [@RWD Twitter account](https://twitter.com/rwd) asked for examples of respimg in action and [a few of his 112K followers obliged](https://twitter.com/RWD/status/560114266137985026). The replies contain a wealth of real-world examples from everyone from [Shopify](http://t.co/klSBfxwDPF) to my [alma mater](http://commonreader.wustl.edu/).
 
-A week ago Jason Grigsby [asked](http://lists.w3.org/Archives/Public/public-respimg/2014Oct/0016.html), “what ever happened to `image-set()`?” `image-set()` brings `srcset`’s functionality to CSS; Jason does a great job of explaining why we need it in a subsequent [blog post](http://blog.cloudfour.com/the-forgotten-responsive-images-spec-image-set/). `image-set()` was implemented with a prefix in WebKit [two years ago](http://blog.cloudfour.com/safari-6-and-chrome-21-add-image-set-to-support-retina-images/) (!) and then we all kind of... forgot about it.
+A bit of “view source” shows a boatload of `picturefill`, a smattering of `picture`, mostly `x` descriptors, and nary a `w` descriptor in sight. [The](https://www.chromestatus.com/metrics/feature/timeline/popularity/524) [numbers](https://www.chromestatus.com/metrics/feature/timeline/popularity/523) [indicate](https://www.chromestatus.com/metrics/feature/timeline/popularity/521) that this is a representative sample; it seems that the Hi-DPI and art direction use cases are easier for folks to wrap their minds around than resolution-switching. Which brings us to the question of:
 
-The discussions that came out of Jason’s post were productive. `image-set()` is happening; [it’ll be specced as a part of CSS Images Level 3](http://lists.w3.org/Archives/Public/public-respimg/2014Oct/0032.html), [it’s going to have feature parity with HTML’s respimg features](http://ircbot.responsiveimages.org/bot/log/respimg/2014-10-23#T97312), and the RICG is going to push for it however we can. TERRORiffic!
+## Developer education
 
+The aforementioned Jason Grigsby is giving a respimg talk at An Event Apart in Atalanta next week, and [posted a flowchart](http://lists.w3.org/Archives/Public/public-respimg/2015Jan/0003.html) that he was developing for the talk to the RICG mailing list, asking for feedback. This chart was a bit of a revelation for me. So many boxes! A spaghetti of arrows! And yet as I followed each branch of the decision tree, I realized that they were all necessary.
 
-## Boo!-link
+The new markup covers a bunch of separate, yet related, use cases. I agree with Jason that presenting every use case all at once, up front, is [not](https://twitter.com/grigs/status/562738155317907456) [the](https://twitter.com/grigs/status/562738406997127169) [best](https://twitter.com/grigs/status/562738553189593088) way to teach the subject. Better to start with a single use case and build out from there. Perhaps it’s entirely natural that, at this early stage, `w` (and `sizes`) adoption is lagging behind the older, more established bits of syntax.
 
-Yoav’s respimg implementation in Blink is already shipping, but that doesn’t mean it’s done. Some changes made over the last couple of weeks:
+## WordPress follow-up
 
-[Blink now uses gemetric means to pick `srcset` sources](https://codereview.chromium.org/667763004/). What in the HELL does that mean? Blink used to pick the smallest source that supplied *at least* as many pixels as it needed; now it picks the source whose dimensions are the *closest* to what it needs. For example: before, given an option between two resources, one with 0.9x the image’s device pixel width and the other with 3x, Blink would have picked the 3x source; now it’ll compromise a little bit on sharpness and save a lot of bytes by selecting the 0.9x resource.
+So what should the largest CMS in the world do about the new bits?
 
-Different browsers are going to do different things here. With any luck, they’ll continue to experiment with, refine, and ultimately improve their `srcset` picking logic over time. Developers can’t predict which source will be chosen out of a `srcset`, and that’s a good thing. [“`srcset` is about letting go”](https://twitter.com/yoavweiss/status/524634996108427264).
+After the WordPress respimg plugin [shipped last week](http://us8.campaign-archive2.com/?u=c988d9ca55d5d09e73a7dc993&id=528f79d024&e=4db00bcdc4), conversations surrounding how to move it forward largely centered around the `sizes` attribute. Those [conversations](https://github.com/ResponsiveImagesCG/wp-tevko-responsive-images/issues/34) are [fascinating](https://github.com/ResponsiveImagesCG/wp-tevko-responsive-images/issues/34).
 
-Blink also now [avoids downloading smaller images if bigger ones are already available in the cache](https://codereview.chromium.org/674923004/). So, now, shrinking your browser window (or changing the orientation of your phone from landscape to portrait) won’t trigger a new request for a new resource; Blink will happily continue to scale-down the old, larger one. A clear and obvious win!
+The plugin, as shipped, leaves `sizes` off of `img` elements entirely, letting the browser pick amongst the provided (and `w`-descripted) `srcset` sources using the default `sizes` value of `100vw`. But! The spec [recently changed](https://github.com/ResponsiveImagesCG/picture-element/issues/253) to *require* a `sizes` attribute. So the plugin maintainers are trying to figure out how, if, and to who to expose `sizes`. Should site maintainers have a say in this? Or should it be left to theme authors? Can we do it via a straight-up text input field, or can this functionality be abstracted in some useful way?
 
-Lastly, Blink now gives developers [console warnings about bad `srcset` descriptors](https://codereview.chromium.org/649183007/). Helping you EXORCISE bugs.
+These are the sorts of questions that every CMS is going to have to answer over the coming months.
 
+While we're discussing the WordPress plugin –
 
-## Yay! Link!
+- If you’re using it, we’d love your [feedback](https://wordpress.org/support/view/plugin-reviews/ricg-responsive-images)!
 
-The [video from Wilto’s excellent talk at Refresh Boston](http://www.futureinsights.com/home/responsive-images-are-here-its-up-to-you-to-make-the-web-for.html) is up and it is chock full o’ Zelda references.
+- Here’s an article about using it [in Japanese.](http://parashuto.com/rriver/responsive-web/responsive-images-wordpress-plugin)
 
+## Housekeeping, part deux
 
-## Tricks and treats
+The results from [last week’s poll](https://docs.google.com/forms/d/1c_pQqkwOhBYe3mD5gBAEXscZDeA2bQyhL_NiW-mYpC4/viewform) are in:
 
-There’s been no SCAREcity of respimg links over the last two weeks:
+- 43% of you want monthly newsletters
+- 43% of you want fortnightly newsletters (a.k.a. the status quo)
+- 14% of you want weekly newsletters
 
-- [Picturefill 2.2 hit beta](https://github.com/scottjehl/picturefill/releases/tag/2.2.0-beta). The new version brings better spec compliance, better performance, fewer bugs, and it plays nicely with Asynchronous Module Definitions.
+Given that this leans slightly towards MOAR NEWSLETTERS, we’ll change nothing, and continue to send one of these things to you every couple of weeks.
 
-- The NCC Group broke [Betteridgde’s Law of Headlines](http://en.wikipedia.org/wiki/Betteridge's_law_of_headlines) by asking, [“Is it time to start using `srcset` and the `picture` element?”](https://www.nccgroup.com/en/blog/2014/10/is-it-time-to-start-using-srcset-and-the-picture-element/)
+## Grab Bag
 
-- Eiji Kitamura published a bit of Javascript that uses [Service Workers](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) (which were just [green-lighted in Blink](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/QfxPGw0kJW8/bsIQTZu0UCkJ)) to manipulate image requests based on a global manifest. Yoav [asks](https://twitter.com/yoavweiss/status/525568123333017600), “who will write the tool that does the same thing server-side?”
+- Here’s a smashing [video of Yoav’s respimg talk in Whistler](http://vimeo.com/117250453)
+(oh and he’s giving a whole workshop at [SmashingConf Oxford](http://smashingconf.com/workshops/yoav-weiss).
+
+- Printing responsive images? [Printing responsive images!](https://www.w3.org/Bugs/Public/show_bug.cgi?id=27864#c2)
+
+- A couple of [kind words for the group from Robin Berjon](https://twitter.com/boblet/status/559222927124488192)
 
 See you in a couple of weeks!
 
