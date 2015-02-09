@@ -46,7 +46,7 @@ The results from [last week’s poll](https://docs.google.com/forms/d/1c_pQqkwOh
 
 Given that this leans slightly towards MOAR NEWSLETTERS, we’ll change nothing, and continue to send one of these things to you every couple of weeks.
 
-## Grab Bag
+## Grab bag
 
 - Here’s a smashing [video of Yoav’s respimg talk in Whistler](http://vimeo.com/117250453)
 (oh and he’s giving a whole workshop at [SmashingConf Oxford](http://smashingconf.com/workshops/yoav-weiss).
