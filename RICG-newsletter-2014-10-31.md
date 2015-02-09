@@ -12,7 +12,7 @@ The RICG researched use cases, labeled them “responsive images,” built conse
 
 Ethan Marcotte’s [@RWD Twitter account](https://twitter.com/rwd) asked for examples of respimg in action and [a few of his 112K followers obliged](https://twitter.com/RWD/status/560114266137985026). The replies contain a wealth of real-world examples from everyone from [Shopify](http://t.co/klSBfxwDPF) to my [alma mater](http://commonreader.wustl.edu/).
 
-A bit of “view source” shows a boatload of `picturefill`, a smattering of `picture`, mostly `x` descriptors, and nary a `w` descriptor in sight. [The](https://www.chromestatus.com/metrics/feature/timeline/popularity/524) [numbers](https://www.chromestatus.com/metrics/feature/timeline/popularity/523) [indicate](https://www.chromestatus.com/metrics/feature/timeline/popularity/521) that this is a representative sample; it seems that the Hi-DPI and art direction use cases are easier for folks to wrap their minds around than resolution-switching. Which brings us to the question of:
+A bit of “view source” shows a boatload of `picturefill`, a smattering of `picture`, mostly `x` descriptors, and nary a `w` descriptor in sight. [The](https://www.chromestatus.com/metrics/feature/timeline/popularity/524) [numbers](https://www.chromestatus.com/metrics/feature/timeline/popularity/523) [indicate](https://www.chromestatus.com/metrics/feature/timeline/popularity/521) that this is a representative sample; it seems that the Hi-DPI and art direction use cases are easier for folks to wrap their minds around than resolution-switching. Which brings us to:
 
 ## Developer education
 
