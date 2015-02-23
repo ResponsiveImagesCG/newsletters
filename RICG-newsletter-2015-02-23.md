@@ -27,7 +27,7 @@ Don’t look now, but Yoav is persistently laying the foundations for respimg in
 
 ## Client hints in Blink?
 
-[Client Hints](https://github.com/igrigorik/http-client-hints) move the complexities of alternate resources, `x` descriptors, and `w` descriptors out of `srcset` attributes and into HTTP headers. Using Client Hints, markup can point to a single `src`. Browsers may send various “hints,” — about their `device-pixel-ratio`, the layout width of the image, or their maximum download speed — as headers on the request for that `src`; the server can then use those hints to choose an alternate, more appropriate resource to send in response.
+[Client Hints](https://github.com/igrigorik/http-client-hints) move the complexities of alternate resources, `x` descriptors, and `w` descriptors out of `srcset` attributes and into HTTP headers. Using Client Hints, markup can point to a single `src`. Browsers may send various “hints” — about their `device-pixel-ratio`, the layout width of the image, or their maximum download speed — as headers on the request for that `src`; the server can then use those hints to choose an alternate, more appropriate resource to send in response.
 
 Yoav posted an [intent to implement thread](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/vOgv-TqefsA/o_fEsy8RFcwJ) about Client Hints over on blink-dev this week. Let’s see where it goes!
 
