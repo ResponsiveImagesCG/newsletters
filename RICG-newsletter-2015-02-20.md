@@ -6,12 +6,10 @@
 
 Firefox users! Belatedly elate! Your images will soon be very lightweight!
 
-[`picture`](https://bugzilla.mozilla.org/show_bug.cgi?id=1017875) and [`srcset`](https://bugzilla.mozilla.org/show_bug.cgi?id=1018389) have been [turned on by default in Firefox Nightly](https://twitter.com/FirefoxNightly/status/567870148763209728), and are slated for Firefox 38 — release date: [May 19th](http://release.mozilla.org/planning/2015/01/13/release-schedule.html).
+[`picture`](https://bugzilla.mozilla.org/show_bug.cgi?id=1017875) and [`srcset`](https://bugzilla.mozilla.org/show_bug.cgi?id=1018389) have been [turned on by default in Firefox Nightly](https://twitter.com/FirefoxNightly/status/567870148763209728), and are slated for Firefox 38 — release date: [May 19th](http://release.mozilla.org/planning/2015/01/13/release-schedule.html).
 
 
 What is it about version thirty-eights? Is their greatness innate? The first responsive image implementations landed in *Chrome **38*** and Opera, uh, 25 [back in October](http://us8.campaign-archive2.com/?u=c988d9ca55d5d09e73a7dc993&id=58a0665da3&e=[UNIQID]).
-
-Coincidence? Totally. Or perhaps it was fate? 
 
 The wait for Gecko respimg was a bit longer than anticipated; issue-owner John Schoenick left Mozilla for Valve back in November. But Josh Matthews picked up where John left off and succeeded this week in pushing the implementations across the finish line.
 
@@ -19,7 +17,7 @@ Huzzah!
 
 ## Drupal for your pupils
 
-[Responsive image support landed in Drupal 8 this week](https://www.drupal.org/node/2260061). I’ve played with it a teeny-weeny bit and it’s fascinating to see how it differs from [WordPress’ approach](https://wordpress.org/plugins/ricg-responsive-images/) — whereas the WordPress respimg plugin tries very hard to keep things simple and automagic, Drupal’s support is much more structured, providing developers with tremendous control (but requiring more setup).
+[Responsive image support landed in Drupal 8 this week](https://www.drupal.org/node/2260061). I’ve played with the implementation a bit and it’s fascinating to see how it differs from [WordPress’](https://wordpress.org/plugins/ricg-responsive-images/) — whereas the WordPress respimg plugin tries very hard to keep things simple and automagic, Drupal’s support is much more structured, providing developers with tremendous control (but requiring more setup).
 
 Next up for Drupal: [a UI](https://www.drupal.org/node/2334387) to make that control accessible to people who don’t like mucking around in `.yml` files.
 
@@ -29,7 +27,7 @@ Don’t look now, but Yoav is persistently laying the foundations for respimg in
 
 ## Client hints in Blink?
 
-[Client Hints](https://github.com/igrigorik/http-client-hints) move the complexities of alternate resources and `x` and `w` descriptors out of markup and into HTTP headers. Client Hints let markup contain a single `img src`. The client tells the server its viewport width and DPR when requesting that `src`. The server can then choose to send a different, more appropriate resource in response.
+[Client Hints](https://github.com/igrigorik/http-client-hints) move the complexities of alternate resources, `x`, and `w` descriptors out of markup and into HTTP headers. Using Client Hints, responsive image markup can be as simple as an `img` with a single `src`. The client tells the server its viewport width and DPR when requesting that `src`. The server can then choose to send a different, more appropriate resource in response.
 
 Yoav posted an [intent to implement thread](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/vOgv-TqefsA/o_fEsy8RFcwJ) about Client Hints over on blink-dev this week. Let’s see where it goes!
 
@@ -37,7 +35,7 @@ Yoav posted an [intent to implement thread](https://groups.google.com/a/chromium
 
 Artisanal-ly “Save for Web…”-ing every image by hand is fine for bespoke websites, but automated image compression is the name of the game for larger sites. Two great, recent, developments on that front:
 
-1. [imgmin](https://github.com/rflynn/imgmin) — the tool that lets you standardize image quality around an objective metric, rather twiddling an arbitrary and mysterious 0-100 encoder knob — has [integrated the DSSIM metric](https://github.com/rflynn/imgmin/pull/43). This is [Kornel Lesiński’s favorite image quality metric](https://github.com/rflynn/imgmin/issues/30); therefore it is also mine.
+1. [imgmin](https://github.com/rflynn/imgmin) — the tool that lets you standardize image quality around an objective metric, rather twiddling an arbitrary and mysterious 0-100 encoder knob — has [integrated the <abbr title="structural dissimilarity">DSSIM</abbr> metric](https://github.com/rflynn/imgmin/pull/43). [Structural (dis)simmilarity](http://en.wikipedia.org/wiki/Structural_similarity) is [Kornel Lesiński’s favorite image quality metric](https://github.com/rflynn/imgmin/issues/30); therefore it is also mine.
 2. Dave Newton is constructing a [massive set of tests](https://github.com/nwtn/image-resize-tests) for all of [ImageMagick](http://www.imagemagick.org/)’s compression and conversion options. These tests are the raw material for an upcoming [talk](http://www.meetup.com/Toronto-Web-Performance-Group/events/220287399/) and article on the subject – I can’t wait!
 
 
