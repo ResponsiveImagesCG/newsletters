@@ -4,7 +4,7 @@
 
 ## 38 Special
 
-Firefox users! Belatedly elate! Your images will soon be very lightweight!
+Firefox users! Belatedly elate! Your images will soon be very lightweight.
 
 [`picture`](https://bugzilla.mozilla.org/show_bug.cgi?id=1017875) and [`srcset`](https://bugzilla.mozilla.org/show_bug.cgi?id=1018389) have been [turned on by default in Firefox Nightly](https://twitter.com/FirefoxNightly/status/567870148763209728), and are slated for Firefox 38 — release date: [May 19th](http://release.mozilla.org/planning/2015/01/13/release-schedule.html).
 
