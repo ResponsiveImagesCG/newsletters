@@ -6,7 +6,7 @@
 
 Firefox users! Belatedly elate! Your images will soon be very lightweight.
 
-[`picture`](https://bugzilla.mozilla.org/show_bug.cgi?id=1017875) and [`srcset`](https://bugzilla.mozilla.org/show_bug.cgi?id=1018389) have been [turned on by default in Firefox Nightly](https://twitter.com/FirefoxNightly/status/567870148763209728), and are slated for Firefox 38 — release date: [May 19th](http://release.mozilla.org/planning/2015/01/13/release-schedule.html).
+[`picture`](https://bugzilla.mozilla.org/show_bug.cgi?id=1017875) and [`srcset`](https://bugzilla.mozilla.org/show_bug.cgi?id=1018389) have been [turned on by default in Firefox Nightly](https://twitter.com/FirefoxNightly/status/567870148763209728), and are slated for Firefox 38 — release date: [May 12th](http://release.mozilla.org/planning/2015/01/13/release-schedule.html).
 
 
 What is it about version 38s? Is their greatness innate? The first responsive image implementations landed in *Chrome **38*** and Opera, uh, 25 [back in October](http://us8.campaign-archive2.com/?u=c988d9ca55d5d09e73a7dc993&id=58a0665da3&e=[UNIQID]).
