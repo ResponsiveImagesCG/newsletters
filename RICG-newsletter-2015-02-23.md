@@ -33,7 +33,7 @@ Yoav posted an [intent to implement thread](https://groups.google.com/a/chromium
 
 ## Automatically optimal compression
 
-Artisanal-ly “Save for Web…”-ing every image by hand is fine for bespoke websites, but automated image compression is the name of the game for larger sites. Two great, recent, developments on that front:
+Artisanal-ly “Save for Web…”-ing every image by hand is fine for bespoke websites, but automated image compression is the name of the game for anything larger. Two great, recent, developments on that front:
 
 1. [imgmin](https://github.com/rflynn/imgmin) — the tool that lets you standardize image quality around an objective metric, rather twiddling an arbitrary and mysterious 0-100 encoder knob — has [integrated the <abbr title="structural dissimilarity">DSSIM</abbr> metric](https://github.com/rflynn/imgmin/pull/43). [Structural (dis)similarity](http://en.wikipedia.org/wiki/Structural_similarity) is [Kornel Lesiński’s favorite image quality metric](https://github.com/rflynn/imgmin/issues/30); therefore it is also mine.
 2. Dave Newton is constructing a [massive set of tests](https://github.com/nwtn/image-resize-tests) for all of [ImageMagick](http://www.imagemagick.org/)’s compression and conversion options. These tests are the raw material for an upcoming [talk](http://www.meetup.com/Toronto-Web-Performance-Group/events/220287399/) and article on the subject – I can’t wait!
