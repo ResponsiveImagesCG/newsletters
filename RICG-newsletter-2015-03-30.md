@@ -5,7 +5,7 @@
 
 ## Educate, regulate
 
-I took an unplanned sabbatical from the newsletter last week (*aka* flubbed a deadline) and it turns out that though the newsletter may stop, the news does not. We have a lot to cover so let’s dig right in.
+I took an unplanned sabbatical from the newsletter last week (*aka* flubbed a deadline) and it turns out that though the newsletter may stop, the news does not. Let’s dig right in.
 
 Google and Udacity have teamed up to produce [an online responsive images course](https://www.udacity.com/course/ud882), and it is wonderful. There are videos. There are corny jokes. There is a gentle learning curve that starts with an introduction to the Chrome dev tools and ends with a fully-responsive blog that incorporates all of the myriad respimg use-cases. There are [interactive quizzes that you complete in-browser via the dev tools](http://udacity.github.io/responsive-images/examples/srcsetAndSizes/index-quiz1.html). To date 1,528 people have signed up for the course, and if you or anyone you know wants to learn respimg from the ground up, you should, too.
 
