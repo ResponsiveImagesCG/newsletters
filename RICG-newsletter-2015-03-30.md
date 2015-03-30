@@ -19,13 +19,17 @@ Watch, read, listen, and most importantly, do. ’Tis the year of implementing r
 
 ## Implement, represent
 
+[Picturefill](https://github.com/scottjehl/picturefill) was just updated to [version 2.3](https://github.com/scottjehl/picturefill/releases/tag/2.3.0). The new version adds support for more alternate file types and handles intrinsic densities the same way that the native implementations do — check out the [beta’s changelist](https://github.com/scottjehl/picturefill/releases/tag/2.3.0-beta) for more details.
+
+[The Wordpress Respimg plugin](https://wordpress.org/plugins/ricg-responsive-images/) was [just updated](https://github.com/ResponsiveImagesCG/wp-tevko-responsive-images/releases/tag/2.2.0) to use this new and improved Picturefill, and brings the plugin’s `srcset`/`sizes` markup in line with the spec.
+
 Use Django? Use [this!](https://pypi.python.org/pypi/django-responsive-images)
 
 How about Grunt, or ImageMagick? Dave Newton just published the slides from his [talk at the Toronto Web Performance Group](https://speakerdeck.com/newtron/using-imagemagick-to-resize-your-images-webperfto), wherein he details all of the research that went into his incredible and indispensable [Grunt-respimg plugin](https://www.npmjs.com/package/grunt-respimg). Favorite slide: [the `liquid-rescale` nightmare horror owl](https://speakerdeck.com/newtron/using-imagemagick-to-resize-your-images-webperfto?slide=37).
 
 If you’re in Toronto and missed it, Dave will be presenting his ImageMagick talk again at the [GTA PHP User Group on April 7th](http://www.meetup.com/GTA-PHP-User-Group-Toronto/events/221364819/) and at [Full Stack Toronto on April 8th](http://www.meetup.com/full-stack-to/events/221499929/). And if you’re in Utah, he’ll be [talking about Responsive Images generally](http://www.openwest.org/schedule/#talk-22) at the OpenWest Conference in Provo on May 7th.
 
-Speaking of slides, Yoav ran through his [legendary deck](http://yoavweiss.github.io/smashingconf_oxford/#/) at SmashingConf Oxford a couple of weeks ago. [Here are some sketchnotes](https://twitter.com/daigen/status/577816047383789568). [Here are some more sketchnotes](https://twitter.com/elisabethirg/status/577818850185605120). Video soon, presumably.
+Speaking of slides, Yoav ran through his [legendary deck](http://yoavweiss.github.io/smashingconf_oxford/#/) at SmashingConf Oxford a couple of weeks ago. [Here are some sketchnotes](https://twitter.com/daigen/status/577816047383789568). [Moar sketchnotes](https://twitter.com/elisabethirg/status/577818850185605120)! Video soon, presumably.
 
 And while we’re on the topic of Yoav, the off-main-thread, pre-parser-friendly CSS tokenizer that he wrote for `picture` and `sizes` has evolved into it’s final form as [the new CSS parser for all of Blink](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/r9bthijsX3A/mlJ9xc8yJCQJ). It brings an enormous 25% (!) layout-performance improvement to Blink users everywhere. I try not to trot this out very often, but: [not bad for a community group](http://w3cmemes.tumblr.com/post/23122022271).
 
