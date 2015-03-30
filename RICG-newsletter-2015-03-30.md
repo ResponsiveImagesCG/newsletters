@@ -25,7 +25,7 @@ How about Grunt, or ImageMagick? Dave Newton just published the slides from his 
 
 Speaking of slides, Yoav ran through his [legendary deck](http://yoavweiss.github.io/smashingconf_oxford/#/) at SmashingConf Oxford a couple of weeks ago. [Here are some sketchnotes](https://twitter.com/daigen/status/577816047383789568). [Here are some more sketchnotes](https://twitter.com/elisabethirg/status/577818850185605120). Video soon, presumably.
 
-And while we’re on the topic of Yoav, the off-main-thread, pre-parser-friendly CSS tokenizer that he wrote for `picture` and `sizes` has evolved into it’s final form as [the new CSS parser for all of Blink](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/r9bthijsX3A/mlJ9xc8yJCQJ). It brings an enormous 25% (!) layout-performance improvement for Blink users everywhere. I try not to trot this one out very often, but: [not bad for a community group](http://w3cmemes.tumblr.com/post/23122022271).
+And while we’re on the topic of Yoav, the off-main-thread, pre-parser-friendly CSS tokenizer that he wrote for `picture` and `sizes` has evolved into it’s final form as [the new CSS parser for all of Blink](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/r9bthijsX3A/mlJ9xc8yJCQJ). It brings an enormous 25% (!) layout-performance improvement to Blink users everywhere. I try not to trot this out very often, but: [not bad for a community group](http://w3cmemes.tumblr.com/post/23122022271).
 
 See you in a couple of weeks!
 
