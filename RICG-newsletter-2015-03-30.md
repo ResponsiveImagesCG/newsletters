@@ -19,7 +19,7 @@ Watch, read, listen, and most importantly, do. ’Tis the year of implementing r
 
 ## Implement, represent
 
-[Picturefill](https://github.com/scottjehl/picturefill) was just updated to [version 2.3](https://github.com/scottjehl/picturefill/releases/tag/2.3.0). My favorite new thing: Picturefill now handles intrinsic densities the same way that the native implementations do. So even if you aren’t explicitly sizing your image via CSS, it’ll appear the same whether the responsive-image-ness is native or polyfilled. There’s more to the release than that, of course — check out the [beta’s changelist](https://github.com/scottjehl/picturefill/releases/tag/2.3.0-beta) for more details.
+[Picturefill](https://github.com/scottjehl/picturefill) was just updated to [version 2.3](https://github.com/scottjehl/picturefill/releases/tag/2.3.0). My favorite new thing: Picturefill now handles intrinsic densities the same way that the native implementations do. So even if you aren’t explicitly sizing your image via CSS, it’ll appear the same whether the respimg functionality is native or polyfilled. There’s more to the release than that, of course — check out the [beta’s changelist](https://github.com/scottjehl/picturefill/releases/tag/2.3.0-beta) for more details.
 
 Speaking of updates, [the official Wordpress respimg plugin](https://wordpress.org/plugins/ricg-responsive-images/) was [just updated](https://github.com/ResponsiveImagesCG/wp-tevko-responsive-images/releases/tag/2.2.0) to use the aforementioned Picturefill 2.3, amongst other good things.
 
