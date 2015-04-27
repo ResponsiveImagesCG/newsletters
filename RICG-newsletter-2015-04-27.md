@@ -1,6 +1,6 @@
 # Trending up
 
-**Teaser:** Usage is going up, Wordpress filesizes are going down, and you should really upgrade your dusty old Picturefill
+**Teaser:** Usage is going up, WordPress filesizes are going down, and you should really upgrade your dusty old Picturefill
 
 ## Put to work
 
@@ -14,7 +14,7 @@ These charts raise interesting questions. Why is usage for all of these features
 
 One small and interesting thing to note: `sizes` caught up with `w` descriptors *fast*, right after it was [made mandatory](https://github.com/ResponsiveImagesCG/picture-element/commit/535e96b73ea8b0e94a7819b1482cd48bff18698e), despite the fact that browsers handle `size`-less markup the same way that they always did. Three cheers for making change without breaking pages!
 
-## Better image resizing in Wordpress
+## Better image resizing in WordPress
 
 Dave Newton, wizard, [is bringing](https://github.com/ResponsiveImagesCG/wp-tevko-responsive-images/commit/c71dcb37163fc3410833e92d5f2d632470948a1a) his ImageMagick magic (which he first delivered to the world [via Grunt](https://www.npmjs.com/package/grunt-respimg), before [porting it to PHP](https://github.com/nwtn/php-respimg)) to [the RICG’s WordPress plugin](https://wordpress.org/plugins/ricg-responsive-images/) (and it’s 3,000+ active installs).
 
@@ -26,7 +26,7 @@ His ImageMagick settings eat up a little more CPU than the WordPress defaults, s
 
 ## PSA: upgrade your Picturefills
 
-The [Picturefill 2.3.1 update](http://scottjehl.github.io/picturefill/#download) that I mentioned last week – which provided support for the Spartan developer preview – fixes more than just Spartan. Due to the way that the plugin used to feature-test, Picturefills ≤ 2.3.0 throw errors on WebKit Nightly, too. Which presumably means that those old Picturefills will cause errors in Mobile/Safari in the near future. So, [upgrade!](http://scottjehl.github.io/picturefill/#download).
+The [Picturefill 2.3.1 update](http://scottjehl.github.io/picturefill/#download) that I mentioned last week – which provided support for the Spartan developer preview – fixes more than just Spartan. Due to the way that the plugin used to feature-test, Picturefills ≤ 2.3.0 throw errors on WebKit Nightly, too. Which presumably means that those old Picturefills will cause errors in Mobile/Safari in the near future. So, [upgrade](http://scottjehl.github.io/picturefill/#download)!
 
 ## Grab Bag
 
