@@ -12,7 +12,7 @@ All of this new markup that I prattle on about – how big of a deal is it, real
 
 These charts raise interesting questions. Why is usage for all of these features up on the weekends and down during the work-week? Why has `x` descriptor usage fallen off slightly, after its meteoric rise? Most [recent](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/) [articles](http://blog.cloudfour.com/dont-use-picture-most-of-the-time/) on the topic explicitly recommend using `srcset` + `w` descriptors for the most common case: images in flexible layouts that need to scale across both viewport sizes and screen resolutions. But that markup is currently dead last in the usage derby. Will it every catch up? When?
 
-One small and interesting thing to note: `sizes` caught up with `w` descriptors *fast*, right after it was [made mandatory](https://github.com/ResponsiveImagesCG/picture-element/commit/535e96b73ea8b0e94a7819b1482cd48bff18698e), despite the fact that browsers handle `size`-less markup the same way they always did. Three cheers for effecting change without breaking pages!
+One small and interesting thing to note: `sizes` caught up with `w` descriptors *fast*, right after it was [made mandatory](https://github.com/ResponsiveImagesCG/picture-element/commit/535e96b73ea8b0e94a7819b1482cd48bff18698e), despite the fact that browsers handle `size`-less markup the same way that they always did. Three cheers for making change without breaking pages!
 
 ## Better image resizing in Wordpress
 
