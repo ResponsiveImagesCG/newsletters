@@ -1,6 +1,6 @@
 # Trending up
 
-**Teaser:** Usage is going up, WordPress filesizes are going down, and you should really upgrade your dusty old Picturefill
+**Teaser:** Increasingly popular elements and strategically modular elegance
 
 ## Put to work
 
@@ -12,13 +12,7 @@ All of this new markup that I prattle on about – how big of a deal is it, real
 
 These charts raise interesting questions. Why is usage for all of these features up on the weekends and down during the work-week? Why has `x` descriptor usage fallen off slightly, after its meteoric rise? Most [recent](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/) [articles](http://blog.cloudfour.com/dont-use-picture-most-of-the-time/) on the topic explicitly recommend using `srcset` + `w` descriptors for the most common case: images in flexible layouts that need to scale across both viewport sizes and screen resolutions. But that markup is currently dead last in the usage derby. Will it catch up?
 
-One small and interesting thing to note: `sizes` caught up with `w` descriptors *fast*, right after it was [made mandatory](https://github.com/ResponsiveImagesCG/picture-element/commit/535e96b73ea8b0e94a7819b1482cd48bff18698e), despite the fact that browsers handle `size`-less markup the same way that they always did. Three cheers for making change without breaking pages!
-
-## Better image resizing in WordPress
-
-Dave Newton, wizard, [is bringing](https://github.com/ResponsiveImagesCG/wp-tevko-responsive-images/commit/c71dcb37163fc3410833e92d5f2d632470948a1a) his ImageMagick magic (which he first delivered to the world [via Grunt](https://www.npmjs.com/package/grunt-respimg), before [porting it to PHP](https://github.com/nwtn/php-respimg)) to [the RICG’s WordPress plugin](https://wordpress.org/plugins/ricg-responsive-images/) (and it’s 3,000+ active installs).
-
-His ImageMagick settings eat up a little more CPU than the WordPress defaults, so even though they produce *much* smaller images, this is going to start out as an opt-in thing. If you’re using the plugin and care about this stuff enough to subscribe to a newsletter about it, I urge you: opt in and [provide feedback](https://github.com/ResponsiveImagesCG/wp-tevko-responsive-images/issues).
+One interesting thing to note: `sizes` caught up with `w` descriptors *fast*, right after it was [made mandatory](https://github.com/ResponsiveImagesCG/picture-element/commit/535e96b73ea8b0e94a7819b1482cd48bff18698e), despite the fact that browsers handle `size`-less markup the same way that they always did. Three cheers for making changes without breaking pages!
 
 ## Container queries have a home
 
