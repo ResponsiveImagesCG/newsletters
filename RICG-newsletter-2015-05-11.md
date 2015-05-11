@@ -28,7 +28,7 @@ Oh, and the docs page should be getting [a spiffy new re-design](https://github.
 
 - I penned a tiny update to my A List Apart respimg article, talking about how and why my examples no longer validate. [Don’t rely on default `sizes`](http://alistapart.com/blog/post/article-update-dont-rely-on-default-sizes/)!
 
-- Here’s a nice little implementation experience writeup: stuff.co.nz [wrote up their struggle](https://technology.fairfaxmedia.co.nz/responsive-images-using-srcset/) with an age-old Picturefill question: whether or not to include a `src`. The prose leads me to believe that after trying to cheat fate with some ill-advised `visibility:hidden;` and `<noscript>` trickery, they came down on the side of including a `src` and risking double downloads, even though a `src` is actually missing from the last example.
+- Here’s a nice little implementation experience writeup: stuff.co.nz [wrote up their struggle](https://technology.fairfaxmedia.co.nz/responsive-images-using-srcset/) with an age-old Picturefill question: whether or not to include a `src`. The prose leads me to believe that after trying to cheat fate with some ill-advised `visibility:hidden;` and `<noscript>` trickery, they came down on the side of including a `src` and risking double downloads (even though `src` is [mistakenly?] missing from the last example).
 
 - Yoav [took to his blog](http://blog.yoav.ws/long_overdue/) to summarize the last eventful, productive, and respimg-filled year and a half of his life. The best part: promises of more blogging!
 
