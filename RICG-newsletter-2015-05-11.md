@@ -11,7 +11,7 @@ Speaking of major imminent implementation news…
 
 Yoav’s tests are good, but testing against real-world production-code is better, so [download WebKit Nightly](http://nightly.webkit.org/), point it to your `srcset`s, and [let Yoav know](https://twitter.com/yoavweiss) about any funny business.
 
-Next up: `picture`! And the wait for these features to trickle down through Apple’s opaque machinery into release versions of desktop and mobile Safaris.
+Next up: `picture`! And the wait for these features to trickle down through Apple’s opaque machinery into release versions of desktop and mobile Safari.
 
 
 ## Picturefill 3 [comin’](https://github.com/scottjehl/picturefill/issues/492)
