@@ -26,7 +26,7 @@ Oh, and the docs page should be getting [a spiffy new re-design](https://github.
 
 - Dave Newton speaks! Dave Newton [will speak!](https://2015.cssconf.com/#speakers) (at the CSSConf in New York on June 18th and 19th) Dave Newton [has](https://speakerdeck.com/newtron/universal-web-design-how-to-create-an-awesome-experience-for-every-user-openwest) [spoken!](https://speakerdeck.com/newtron/improving-performance-with-responsive-and-responsible-images-openwest) (on respimg and the broader goal of a universally accessible web at the OpenWest conference in Provo, Utah)
 
-- I wrote [a tiny update to my A List Apart article](http://alistapart.com/blog/post/article-update-dont-rely-on-default-sizes/), talking about how and why my example pages no longer validate.
+- I penned a tiny update to my A List Apart respimg article, talking about how and why my examples no longer validate. [Don’t rely on default `sizes`](http://alistapart.com/blog/post/article-update-dont-rely-on-default-sizes/)!
 
 - Here’s a nice little implementation experience writeup: stuff.co.nz [wrote up their struggle](https://technology.fairfaxmedia.co.nz/responsive-images-using-srcset/) with an age-old Picturefill question: whether or not to include a `src`. The prose leads me to believe that after trying to cheat fate with some ill-advised `visibility:hidden;` and `<noscript>` trickery, they came down on the side of including a `src` and risking double downloads, even though a `src` is actually missing from the last example.
 
