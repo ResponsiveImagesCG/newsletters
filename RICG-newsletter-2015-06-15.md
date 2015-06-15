@@ -18,12 +18,11 @@ Designed by [Geri](http://www.hellogeri.com/) in Nottingham.
 
 Maybe you’ve heard? Picturefills <2.3.1 are holding back the progress of the platform. The RICG and friends are trying to make as much noise as possible about this – since I last shouted at you with a megaphone about it, both [Greg Whitworth at Microsoft](http://blogs.windows.com/msedgedev/2015/06/08/introducing-srcset-responsive-images-in-microsoft-edge/) and [Jeff Lembeck at A List Apart](http://alistapart.com/blog/post/picturefill-upgrade) have weighed in.
 
-Greg’s post is particularly interesting, as it details the damned-if-you-do, damned-if-you-don't dilemma that the prevalence of old Picturefills put his team at Microsoft in, re: `currentSrc`.
+Greg’s post is particularly interesting, as it details the damned-if-you-do, damned-if-you-don’t dilemma that the prevalence of old Picturefills put his team at Microsoft in, re: `currentSrc`.
 
 One last note: I mentioned that the official WordPress plugin had made the jump to 2.3.1 last week, but forgot to tell you that the [Drupal responsive images module did, too](https://www.drupal.org/commitlog/commit/42538/efc4a6af36c37830079d834e1430d0003c8c36ba). Upgrade your Drupals!
 
 ## Grab bag
-
 
 - Jason Grigsby has almost completed his wondrously clear and concise series, “Responsive Images 101”. [Here’s the latest](http://blog.cloudfour.com/responsive-images-101-part-8-css-images/) on responsive images in CSS aka `image-set` (but not yet).
 
