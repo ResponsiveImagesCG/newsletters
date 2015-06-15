@@ -12,7 +12,7 @@ We’ve come so far since the first desktop implementations started to ship last
 
 Just get a load of [these new RICG Shirts! And hoodies!](https://cottonbureau.com/products/ricg-web-standard-mfg-corp)
 
-Designed by [Geri](http://www.hellogeri.com/) in [Nottingham](https://en.wikipedia.org/wiki/Newfie).
+Designed by [Geri](http://www.hellogeri.com/) in Nottingham.
 
 ## Wherin I continue to bang on about the importance Picturefill 2.3.1
 
