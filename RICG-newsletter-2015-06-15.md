@@ -12,7 +12,7 @@ We’ve come so far since the first desktop implementations started to ship last
 
 Just get a load of [these new RICG Shirts! And hoodies!](https://cottonbureau.com/products/ricg-web-standard-mfg-corp)
 
-Designed by [Geri](http://www.hellogeri.com/) in [Newfie](https://en.wikipedia.org/wiki/Newfie).
+Designed by [Geri](http://www.hellogeri.com/) in [Nottingham](https://en.wikipedia.org/wiki/Newfie).
 
 ## Wherin I continue to bang on about the importance Picturefill 2.3.1
 
@@ -34,6 +34,8 @@ One last note: I mentioned that the official WordPress plugin had made the jump 
 - The Picturefill folks have added a [gotcha section to their docs](https://github.com/scottjehl/picturefill#the-gotchas), discussing common pain points: double downloads, Firefox bugs, `vw` vs `%`, and art directing down to no image at all using transparent gifs.
 
 - [Smashing Book 5](https://shop.smashingmagazine.com/products/smashing-book-5-real-life-responsive-web-design-ebook) with a respimg chapter by Yoav is out.
+
+- Etsy [is using](https://twitter.com/lara_hogan/status/609371637591470080) `srcset` and `sizes` in their Seller Handbook articles. Their CMS integration appears to be [particularly impressive](https://twitter.com/lara_hogan/status/609371995617296385).
 
 - Morten Rand-Hendriksen has been thinking deeply about how responsive images challenge some of the fundamental assumptions behind WordPress. He’s written not [one](http://mor10.com/wordpress-image-handling-in-a-responsive-images-world/), but [two](http://mor10.com/wordpress-responsive-images-and-dynamic-image-sizes/) posts on the topic.
 
