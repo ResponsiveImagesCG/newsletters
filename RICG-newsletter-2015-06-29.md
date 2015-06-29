@@ -18,13 +18,15 @@ Dave Newton just published a stellar article [explaining his optimal ImageMagick
 
 ## We speak
 
-- Speaking of Dave, he just spoke about “Improving Performance With Responsive (And Responsible!) Images” [at CSS Conf](https://2015.cssconf.com/#videos).
+- Speaking of Dave, he just spoke about <cite>Improving Performance With Responsive (And Responsible!) Images</cite> [at CSS Conf](https://2015.cssconf.com/#videos).
 
-- And Jason Grigsby flew across the Atlantic to answer the question, “Why Responsive Images” at the final [Responsive Day Out](http://responsiveconf.com/2015/) in Brighton, England. [Notes](https://decadecity.net/blog/2015/06/19/jason-grigsby-responsive-images-have-landed) / [slides](https://speakerdeck.com/grigs/why-responsive-images) / [audio](https://huffduffer.com/adactio/243771).
+- And Jason Grigsby flew across the Atlantic to answer the question, <cite>Why Responsive Images</cite> at the final [Responsive Day Out](http://responsiveconf.com/2015/) in Brighton, England. [Notes](https://decadecity.net/blog/2015/06/19/jason-grigsby-responsive-images-have-landed) / [slides](https://speakerdeck.com/grigs/why-responsive-images) / [audio](https://huffduffer.com/adactio/243771).
 
-## A bummer and a correction
+## A bummer, a book, and a correction
 
 - Firefox’s shipping respimg implentation might not respond to viewport changes [until September](https://bugzilla.mozilla.org/show_bug.cgi?id=1135812#c62). But never fear: [Picturefill’s got your back](https://twitter.com/respimg/status/614514633890791424).
+
+- Five Simple Steps have just released [<cite>Practical Responsive Images</cite>, by Ben Seymour](http://www.fivesimplesteps.com/products/practical-responsive-images). I haven’t had a chance to check it out yet but it looks good!
 
 - In the last newsletter I mentioned “a nifty little library that uses CSS gradients as image placeholders”. And forgot to add the link, which is:
 [http://gradifycss.com/](http://gradifycss.com/). Oops!
