@@ -1,7 +1,7 @@
 # Big doin’s
 **teaser text:** Big week
 
-## Let’s “change the way we all write CSS” – forever
+## Let’s “change the way we all write CSS,” forever!
 
 Mat Marquis got the last couple of weeks off to a cracking start with [a big honkin’ <cite>A List Apart</cite> article][cq-ala] about <del>element</del> <ins>container</ins> queries.
 
