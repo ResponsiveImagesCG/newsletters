@@ -7,7 +7,7 @@ After [months][intent-1] of [discussion][intent-2] over on blink-dev, Client Hin
 
 Because he’s Yoav – the very same Yoav whose Blink username currently claims to be “Out of the Office until the 15th” – Yoav landed the commit [on shady wifi while on vacation][yoav-wifi]. As a great man once said,
 
-“We shall land responsive image patches, whatever the cost may be. We shall commit on the beaches, we shall express our intent to implement in the [countryside][countryside], we shall read mailing lists in the fields and compile use cases in the streets, we shall spec in the hills; we shall never serve an [85.4MB website about sunglasses][omfg].”
+> We shall land responsive image patches, whatever the cost may be. We shall commit on the beaches, we shall express our intent to implement in the [countryside][countryside], we shall read mailing lists in the fields and compile use cases in the streets, we shall spec in the hills; we shall never serve an [85.4MB website about sunglasses][omfg].
 
 God Save Yoav. And if you’re interested in pushing the complexity of managing multiple resources out of your markup and onto a server, grab a fresh [Canary][canary], brush up on the [spec][ch-spec] and give Client Hints a spin.
 
