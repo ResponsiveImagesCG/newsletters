@@ -1,5 +1,5 @@
 # Use cases in the streets, rebases in the sheets
-Teaser: Client hints have landed, `picture` in Edge is official, and [WIT HERE]
+Teaser: Client hints have landed, `picture` in Edge is official, and Yoav is bad at vacation.
 
 ## Client Hints have landed
 
@@ -22,19 +22,26 @@ God Save Yoav. And if you’re interested in pushing the complexity of managing 
 
 ## `picture` is coming to Edge
 
-It’s [official][its-happening]. No timeline yet (and their [status page][ms-status] hasn’t even been updated), but it’s coming. Which makes Webkit the last of the three major rendering engines not to have made a public commitment to implementing the full respimg spec.
+It’s [official][its-happening]. No timeline yet (and their [status page][ms-status] hasn’t even been updated), but: `picture` is coming to Edge. Which makes Webkit the last of the three major rendering engines not to have made a public commitment to implementing the full respimg spec.
 
-There are, of course, [positive signs][picture-big-one]. And Yoav’s [on][async] the [case][webkit-picture].
+There are, of course, [positive signs][positive]. And Yoav’s [on][async] the [case][webkit-picture].
 
 [its-happening]: https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6261271-picture-element?tracking_code=2bff73cbe7ab5df6de48a42bf23848f0
 [ms-status]: http://dev.modern.ie/platform/status/pictureelement/?filter=f3e0000bf&search=picture
-[picture-big-one]: https://twitter.com/grorgwork/status/616333173362786304
+[positive]: https://twitter.com/grorgwork/status/616333173362786304
 [async]: https://bugs.webkit.org/show_bug.cgi?id=134488
 [webkit-picture]: https://bugs.webkit.org/show_bug.cgi?id=picture
 
 ## Grab bag
 
-- The Financial Times [implemented responsive images][ft-implement] on a new responsive design that they’re cooking up and saw a 66% decrease in total bytes transferred, and a %40 improvement on their Speed Index. Not too shabby.
+- The Financial Times [implemented responsive images][ft-implement] on a new responsive design that they’re cooking up and saw a 66% decrease in total bytes transferred, and a 40% improvement on their Speed Index. Not too shabby.
+
+- Chris Coyier published an excellent thirty minute [screencast over on CSS Tricks][screencast] which walks through [a responsive images implementation][eg] using Picturefill, `w` descriptors, and `sizes` with a design breakpoint. Uniquely, Chris delves into how to actually export the resources we need from layout comps in both Sketch and Photoshop. [Excellent!][excellent]
 
 [ft-implement]: https://twitter.com/patrickhamann/status/626414825279778817
+[screencast]: https://css-tricks.com/video-screencasts/141-getting-the-images-and-numbers-for-responsive-images/
+[excellent]: http://www.billandted.org/sounds/ea/eaexcellent.mp3]
 
+See you in a couple of weeks!
+
+—eric
