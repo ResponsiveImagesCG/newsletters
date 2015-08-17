@@ -41,7 +41,7 @@ There are, of course, [positive signs][positive]. And Yoav’s [on][async] the [
 [ft-implement]: https://twitter.com/patrickhamann/status/626414825279778817
 [screencast]: https://css-tricks.com/video-screencasts/141-getting-the-images-and-numbers-for-responsive-images/
 [eg]: http://codepen.io/chriscoyier/pen/QbVwYp
-[excellent]: http://www.billandted.org/sounds/ea/eaexcellent.mp3]
+[excellent]: http://www.billandted.org/sounds/ea/eaexcellent.mp3
 
 See you in a couple of weeks!
 
