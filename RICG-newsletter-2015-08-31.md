@@ -1,5 +1,5 @@
 # Steering gigantic ships
-Microsoft and WordPress, full steam ahead
+Microsoft, WordPress, and the HTML spec, oh my!
 
 ## Edge progress
 
@@ -23,10 +23,22 @@ Jason Grigsby has completed his stupendous <cite>Responsive Images 101</cite> se
 
 Jason has thought about image breakpoints more than anyone — I’m pretty sure he coined the term? — and it shows. After outlining the problem and a bunch of different ways to think about tackling it, Jason ends with a section called “Humans shouldn’t be doing this” and a plea for developers and CMSs to shield content creators from having to do the confounding, tedious work of creating and managing multiple alternate image resources.
 
-And Jason’s conclusion is excellent. He celebrates how far responsive images have come, touches on a bunch of possible “201” topics, and implores us all to “Please share what you learn!” Here here!
+And Jason’s conclusion is excellent. He celebrates how far responsive images have come, touches on a bunch of possible “201” topics, and implores us all to “Please share what you learn!” Hear hear!
 
 [ibreak]: http://blog.cloudfour.com/responsive-images-101-part-9-image-breakpoints/
 [concl]: http://blog.cloudfour.com/responsive-images-part-10-conclusion/
+
+## Specs on the move
+
+The WHATWG HTML spec moved from it’s lonely SVN server [over to GitHub][html-gh] over the weekend. To date, Ian Hickson, WHATWG editor, used a build script to pull `picture` from the [RICG’s GitHub repo][picture-gh] into the published WHATWG spec. As a result of the move, that workflow is being tossed. Henceforth, `picture` and friends [will][picture-direct-issue] [live][picture-direct-commit] in the WHATWG repo, just like everything else.
+
+The [RICG’s repo][picture-gh] will live on for history, but all of the action is moving to the WHATWG spec on GitHub. So if you’ve got a spec bug: [file it there][html-issues].
+
+[html-gh]: https://github.com/whatwg/html
+[picture-gh]: https://github.com/ResponsiveImagesCG/picture-element
+[picture-direct-issue]: https://github.com/whatwg/html/issues/52
+[picture-direct-commit]: https://github.com/whatwg/html/commit/d9cff6e9a6fb2928ef5d3f3d8df4e4dd18fb9b4c
+[html-issues]: https://github.com/whatwg/html/issues
 
 See you in a couple of weeks!
 
