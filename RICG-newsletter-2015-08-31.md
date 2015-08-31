@@ -30,9 +30,9 @@ And Jason’s conclusion is excellent. He celebrates how far responsive images h
 
 ## Specs on the move
 
-The WHATWG HTML spec moved from it’s lonely SVN server [over to GitHub][html-gh] over the weekend. To date, Ian Hickson, WHATWG editor, used a build script to pull `picture` from the [RICG’s GitHub repo][picture-gh] into the published WHATWG spec. As a result of the move, that workflow is being tossed. Henceforth, `picture` and friends [will][picture-direct-issue] [live][picture-direct-commit] in the WHATWG repo, just like everything else.
+The WHATWG HTML spec moved from it’s lonely SVN server [over to GitHub][html-gh] over the weekend. To date, Ian Hickson, WHATWG editor, has used a build script to pull `picture` from the [RICG’s repo][picture-gh] into the published WHATWG spec. As a result of the move, that workflow is being tossed. Henceforth, `picture` and friends [will][picture-direct-issue] [live][picture-direct-commit] in the WHATWG HTML repo, just like everything else.
 
-The [RICG’s repo][picture-gh] will live on for history, but all of the action is moving to the WHATWG spec on GitHub. So if you’ve got a spec bug: [file it there][html-issues].
+Our venerable [`picture-element` repository][picture-gh] will live on for history, but all of the action is moving to the WHATWG HTML spec repo on GitHub. So if you’ve got a bug: [file it there][html-issues].
 
 [html-gh]: https://github.com/whatwg/html
 [picture-gh]: https://github.com/ResponsiveImagesCG/picture-element
