@@ -23,14 +23,14 @@ Jason Grigsby has completed his stupendous <cite>Responsive Images 101</cite> se
 
 Jason has thought about image breakpoints more than anyone — I’m pretty sure he coined the term? — and it shows. After outlining the problem and a bunch of different ways to think about tackling it, Jason ends with a section called “Humans shouldn’t be doing this” and a plea for developers and CMSs to shield content creators from having to do the confounding, tedious work of creating and managing multiple alternate image resources.
 
-And Jason’s conclusion is excellent. He celebrates how far responsive images have come, touches on a bunch of possible “201” topics, and implores us all to “Please share what you learn!” Hear, hear!
+The conclusion to the series is excellent. Jason celebrates how far responsive images have come, touches on a bunch of possible “201” topics, and implores us all to “Please share what you learn!” Hear, hear!
 
 [ibreak]: http://blog.cloudfour.com/responsive-images-101-part-9-image-breakpoints/
 [concl]: http://blog.cloudfour.com/responsive-images-part-10-conclusion/
 
 ## Specs on the move
 
-The WHATWG HTML spec moved from it’s lonely SVN server [over to GitHub][html-gh] over the weekend. To date, Ian Hickson, WHATWG editor, has used a build script to pull `picture` from the [RICG’s repo][picture-gh] into the published WHATWG spec. As a result of the move, that workflow is being tossed. Henceforth, `picture` and friends [will][picture-direct-issue] [live][picture-direct-commit] in the WHATWG HTML repo, just like everything else.
+The WHATWG HTML spec moved from its lonely SVN server [over to GitHub][html-gh] over the weekend. To date, Ian Hickson, WHATWG editor, has used a build script to pull `picture` from the [RICG’s repo][picture-gh] into the published WHATWG spec. As a result of the move, that workflow is being tossed. Henceforth, `picture` and friends [will][picture-direct-issue] [live][picture-direct-commit] in the WHATWG HTML repo, just like everything else.
 
 Our venerable [`picture-element` repository][picture-gh] will live on for history, but all of the action is moving to the WHATWG HTML spec repo on GitHub. So if you’ve got a bug: [file it there][html-issues].
 
