@@ -23,7 +23,7 @@ Jason Grigsby has completed his stupendous <cite>Responsive Images 101</cite> se
 
 Jason has thought about image breakpoints more than anyone — I’m pretty sure he coined the term? — and it shows. After outlining the problem and a bunch of different ways to think about tackling it, Jason ends with a section called “Humans shouldn’t be doing this” and a plea for developers and CMSs to shield content creators from having to do the confounding, tedious work of creating and managing multiple alternate image resources.
 
-And Jason’s conclusion is excellent. He celebrates how far responsive images have come, touches on a bunch of possible “201” topics, and implores us all to “Please share what you learn!” Hear hear!
+And Jason’s conclusion is excellent. He celebrates how far responsive images have come, touches on a bunch of possible “201” topics, and implores us all to “Please share what you learn!” Hear, hear!
 
 [ibreak]: http://blog.cloudfour.com/responsive-images-101-part-9-image-breakpoints/
 [concl]: http://blog.cloudfour.com/responsive-images-part-10-conclusion/
