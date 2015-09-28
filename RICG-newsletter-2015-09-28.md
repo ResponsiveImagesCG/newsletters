@@ -15,7 +15,7 @@ That was quick. Edge version 10547 [supports `picture` and `sizes`][edge_picture
 
 This means that (with a single, hopefully-soon-remedied [exception][safari]) every current version of every desktop browser now supports the full suite of responsive image features.
 
-Oh, and the Edge team will [probably][edge_image-set] implement `image-set()`, too.
+Oh, and the Edge team will [probably][edge_image-set] implement `image-set()`, too!
 
 [edge_picture]: https://dev.modern.ie/platform/changelog/desktop/10547/
 [safari]: https://bugs.webkit.org/show_bug.cgi?id=116963
@@ -26,9 +26,7 @@ Oh, and the Edge team will [probably][edge_image-set] implement `image-set()`, t
 
 The energy (and consistency!) behind the respimg-in-WordPress team is a joy to behold.
 
-They [pushed a new plugin release last week][wp_v25], v2.5, which, among other things, brings respimg support to images published before the plugin was installed using output filters.
-
-This release takes them one step closer to their large goal: [bringing respimg functionality to WordPress core][joe_wp].
+They [released a new version of the official plugin last week][wp_v25], which, among other things, brings respimg support to images published before the plugin was installed, using output filters. This is one more step towards the larger goal: [bringing respimg functionality to WordPress core][joe_wp].
 
 A very large website (anybody know who?) deployed `x` descriptors this month and [doubled the current level of usage overnight](https://www.chromestatus.com/metrics/feature/timeline/popularity/523): `x` descriptors are now used on ~1% of Chrome pageviews. That’s a very big deal, but `w`s hitting WP-Core might an order-of-magnitude bigger.
 
