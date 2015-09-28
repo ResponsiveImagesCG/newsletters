@@ -52,12 +52,16 @@ Finally — my interest in Client Hints still far outpaces my expertise, so I le
 ## Grab Bag
 
 - Picturefill 3 should be out of beta [imminently][pf3_rc1].
+- Spec changes afoot: [the `width` attribute is now used as a fallback][width_attr] for invalidly-omitted `sizes`, and the meaning of the Client Hints `Width` header [just changed from CSS to device pixels][ch_width]. Someday I shall catalog the many definitions of the extremly-overloaded word “width” w/r/t respimg...
 - Understanding and communicating how an adaptable image will adapt within a responsive design is hard. Kevin Mack and Tim Vonderloh gave [a presentation][cropping] at the Columbus Web Group about re-using the concepts and language of print (where variability comes from imperfect processeses) to respimg (where the variability happens *by design*).
 - Last and maybe actually least, Facebook blogged about their [cover photo optimization efforts][cover_photos]. The post doesn’t mention respimg, per-se, but it does contain a lot of insight into how Facebook actually goes about making, managing, and delivering images efficiently at Facebook-scale.
 
 [pf3_rc1]: https://twitter.com/respimg/status/641311961171533824
 [cropping]: https://twitter.com/nicetransition/status/637345391910916096
+[width_attr]: https://github.com/ResponsiveImagesCG/picture-element/issues/268
+[ch_width]: https://twitter.com/yoavweiss/status/647005135017758720
 [cover_photos]: https://code.facebook.com/posts/991252547593574/the-technology-behind-preview-photos/
 
 Tschüs!
+
 —eric
