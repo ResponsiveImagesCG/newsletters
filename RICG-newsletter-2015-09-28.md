@@ -2,7 +2,7 @@
 
 What a month. Personally, I went to Germany to speak (!) at SmashingConf (!!!). Never did I think an interest in respimg would take me to a medieval hall, half a world away, to tell hundreds of people how to do their jobs. But! It did! And I drank bier and ate würst and met heroes and made friends. It was as wonderful as it was surreal.
 
-And I actually had a newsletter all written in the Frankfurt Flughafen, ready to fire off as soon as I got home, but by the time I got there the RICG had won a pair of [Net Awards](https://thenetawards.com), necessitating some re-writes.
+And I actually had a newsletter all written in the Frankfurt Flughafen, ready to fire off as soon as I got home, but by the time I got there the RICG had won a pair of [Net Awards](https://thenetawards.com), necessitating a re-write.
 
 - [Best Collaborative Project](https://twitter.com/yoavweiss/status/644982406211063808)
 - [Best New Web Technology](https://twitter.com/yoavweiss/status/644984378045673472)
@@ -51,7 +51,7 @@ Finally — my interest in Client Hints still far outpaces my expertise, so I le
 
 - Picturefill 3 should be out of beta [imminently][pf3_rc1].
 - Spec changes afoot: [the `width` attribute is now used as a fallback][width_attr] for invalidly-omitted `sizes`, and the meaning of the Client Hints `Width` header [just changed from CSS to device pixels][ch_width]. Someday I shall catalog the many definitions of the extremly-overloaded word “width” w/r/t respimg...
-- Understanding and communicating how an adaptable image will adapt within a responsive design is hard. Kevin Mack and Tim Vonderloh gave [a presentation][cropping] at the Columbus Web Group about re-using the concepts and language of print (where variability comes from imperfect processeses) to respimg (where the variability happens *by design*).
+- Understanding and communicating how an adaptable image will adapt within a responsive design is hard. Kevin Mack and Tim Vonderloh gave [a presentation][cropping] at the Columbus Web Group explaining how they apply the concepts and language of print (where variability comes from imperfect processeses) to respimg (where the variability happens *by design*).
 - Last and maybe actually least, Facebook blogged about their [cover photo optimization efforts][cover_photos]. The post doesn’t mention respimg, per-se, but it does contain a lot of insight into how Facebook actually goes about making, managing, and delivering images efficiently at Facebook-scale.
 
 [pf3_rc1]: https://twitter.com/respimg/status/641311961171533824
