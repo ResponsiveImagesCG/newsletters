@@ -1,8 +1,6 @@
-# Twenty-five percent
+# Twenty-four percent
 
 **teaser:** WordPress gets respimg and Picturefill’s over the hill
-
-## Frog Blast the WordPress Core!
 
 The RICG aims to responsify the web’s images; I’ve always thought of that as a three-part problem. We needed to get respimg features into specs, browsers, and, most important of all, websites. That last one was always going to be a long slog, so I’m overjoyed to report some huge, wonderful news: [the RICG’s official WordPress plugin has been merged into WordPress Core][m].
 
@@ -14,7 +12,7 @@ To Joe McGill and the whole team behind the WordPress plugin: huge congrats and 
 [m]: https://core.trac.wordpress.org/changeset/34855
 [twenty]: https://wordpress.org/about/features/
 
-## This PictureFill goes to 3.0.1!
+## This PictureFill goes to 3.0.1
 
 A couple of weeks ago, I reported that PictureFill 3.0 — a near-complete re-write bringing spec-accurate parsing, robust tests, and fixes for niggling browser bugs in the extant implementations — was imminent. Welp, the team did me one better and released 3.0.1 last week. [Go update!][pf3]
 
