@@ -12,11 +12,11 @@ To Joe McGill and the whole team behind the WordPress plugin: huge congrats and 
 [m]: https://core.trac.wordpress.org/changeset/34855
 [twenty]: https://wordpress.org/about/features/
 
-## This PictureFill goes to 3.0.1
+## This Picturefill goes to 3.0.1
 
-A couple of weeks ago, I reported that PictureFill 3.0 — a near-complete re-write bringing spec-accurate parsing, robust tests, and fixes for niggling browser bugs in the extant implementations — was imminent. Welp, the team did me one better and released 3.0.1 last week. [Go update!][pf3]
+A couple of weeks ago, I reported that Picturefill 3.0 — a near-complete re-write bringing spec-accurate parsing, robust tests, and fixes for niggling browser bugs in the extant implementations — was imminent. Welp, the team did me one better and released 3.0.1 last week. [Go update!][pf3]
 
-So... what now? Picturefill was always meant to be a bridge — shepherding us all from a world without native implementations into a world with universal support. Now that almost every current shipping browser supports almost every respimg feature, Alexander Farkas (who was a driving force behind the PF3 effort) [has some ideas][farkasgist] on how PictureFill can start reducing its footprint. I find the fact that Picturefill was *designed* to slowly erase itself — to do less and less over time instead of piling on features ad infinitum — fascinating; PictureFill as a study in how to practically accelerate the progress of the web has always been fascinating to me too. I’m not close enough to the project to know if the time is right for Alexander’s ideas, but they’re definitely worth a [read-through][farkasgist].
+So... what now? Picturefill was always meant to be a bridge — shepherding us all from a world without native implementations into a world with universal support. Now that almost every current shipping browser supports almost every respimg feature, Alexander Farkas (who was a driving force behind the PF3 effort) [has some ideas][farkasgist] on how Picturefill can start reducing its footprint. I find the fact that Picturefill was *designed* to slowly erase itself — to do less and less over time instead of piling on features ad infinitum — fascinating; PictureFill as a study in how to practically accelerate the progress of the web has always been fascinating to me too. I’m not close enough to the project to know if the time is right for Alexander’s ideas, but they’re definitely worth a [read-through][farkasgist].
 
 [pf3]: https://github.com/scottjehl/picturefill/releases/tag/3.0.1
 [farkasgist]: https://gist.github.com/aFarkas/dcc87311232987591a16
