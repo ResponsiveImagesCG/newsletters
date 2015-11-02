@@ -5,7 +5,7 @@
 
 That’s the day that responsive images will ship in WordPress core, as the marquee feature of version 4.4 (curently in [beta][wp_beta]). The team is making some [final tweaks][wp_new_size] to the platform to prepare the way, and [Joe McGill recently appeared on the WP Tavern podcast to explain how it all works][wp_tavern].
 
-Wordpress may be the web’s largest single CMS, but it’s not the only one — a new, excellent-looking [respimg plugin for Kirby][kirby_respimg] appeared the other week. And it looks like the `jekyll-picture-tag` plugin for Jekyll [will soon be boarding the `srcset`, `w`, and `sizes` bandwagon][jekyll_w].
+WordPress may be the web’s largest single CMS, but it’s not the only one — a new, excellent-looking [respimg plugin for Kirby][kirby_respimg] appeared the other week. And it looks like the `jekyll-picture-tag` plugin for Jekyll [will soon be boarding the `srcset`, `w`, and `sizes` bandwagon][jekyll_w].
 
 [wp_beta]: [https://wordpress.org/news/2015/10/wordpress-4-4-beta-1/]
 [wp_new_size]: https://core.trac.wordpress.org/changeset/35479
