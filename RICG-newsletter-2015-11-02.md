@@ -1,8 +1,8 @@
-# Tool Time
+# Tool Time!
 
 **Teaser:** Does everybody know what time it is?
 
-If I've had a mantra in this newsletter for the past few months, it's that now that we’ve managed to get respimg into specs and browsers, the final step in respimg-ifying the web is to get responsive images into as many *webpages* as possible. The best way to do that is tooling, and this newsletter is full of it.
+If I've had a mantra in this newsletter for the past few months, it's that now that we’ve managed to get respimg into *specs* and *browsers*, the final step in respimg-ifying the web is to get responsive images into as many *webpages* as possible. The best way to do that is tooling, and this newsletter is full of it.
 
 ## Remember, remember, the 8th of December
 
@@ -54,12 +54,12 @@ Neat.
 [flif-rwd]: http://flif.info/responsive.html
 [himg]: https://github.com/mbitsnbites/himg
 
-## Grab Bag
+## Grab bag
 
 - Toot toot! What’s that sound? It’s my own horn! Because this here newsletter just passed the 1,000-subscriber mark. I owe all of you beers.
 - [Yoav went to TPAC][incubate_ur_face].
 - Use Node.js and need to automatically crop/art direct images? [Smartcrop.js][smartcrop_js] might be just what the doctor ordered.
-- Speaking of art direction at scale — a couple of folks from Walmart Labs gave [a great presentation on responsive hero images][walmart_heros]. I write a lot of words here about code, tools, and specs — this talk focuses on the much gnarlier problems of organizational process and people. A refreshing perspective and informative talk; also includes some delightful Jason Grigsby/Rick Astley mashup gifs.
+- Speaking of art direction at scale — a couple of folks from Walmart Labs gave [a great presentation on responsive hero images][walmart_heros]. I write a lot of words here about code, tools, and specs — this talk focuses on the much gnarlier problems of organizational process and people. A refreshing perspective and an informative talk; also includes some delightful Jason Grigsby/Rick Astley mashup gifs.
 
 [incubate_ur_face]: http://w3cmemes.tumblr.com/post/132069160337/meanwhile-in-the-wicg-breakout
 [smartcrop_js]: https://github.com/jwagner/smartcrop.js/
