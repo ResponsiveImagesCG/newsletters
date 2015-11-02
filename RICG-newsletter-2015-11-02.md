@@ -1,8 +1,8 @@
-# Tool Time!
+# Tool Time
 
 **Teaser:** Does everybody know what time it is?
 
-If I've had a mantra in this newsletter for the past few months, it's that now that we’ve managed to get respimg into *specs* and *browsers*, the final step in respimg-ifying the web is to get responsive images into as many *webpages* as possible. The best way to do that is tooling, and this newsletter is full of it.
+If I’ve had a mantra in this newsletter for the past few months, it's that now that we’ve managed to get respimg into *specs* and *browsers*, the final step in respimg-ifying the web is to get responsive images into as many *webpages* as possible. The best way to do that is tooling, and this newsletter is full of it.
 
 ## Remember, remember, the 8th of December
 
