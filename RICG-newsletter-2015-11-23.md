@@ -12,9 +12,9 @@ So: every desktop browser except for Safari is shipping `picture`. For the fruit
 
 ## WordPress Progress
 
-Versions 3 and 3.1 of the official RICG responsive images plugin for WordPress [have landed][ricg-wp] since I last newslettered. If you've been using the plugin, upgrade! Version 3 deprecates its core functionality, which is being merged into to WordPress 4.4 Core. We've known about this (huge! amazing! sea-change-y!) development for a couple of newsletters but Joe McGill just wrote [an excellent explainer][joe-post] over on the WordPress Core development blog.
+Versions 3 (and 3.1!) of the official RICG responsive images plugin for WordPress [have landed][ricg-wp]. If you've been using the plugin, upgrade! Version 3 deprecates its core functionality, which is being merged into WordPress 4.4 Core. We've known about this (huge! amazing! sea-change-y!) development for a couple of newsletters but Joe McGill just wrote [an excellent explainer about it][joe-post] over on the WordPress Core development blog.
 
-Have I mentioned that [WordPress powers a quarter of the web][wp-quarter]? And that respimg landing in Core is going to do more for respimg adoption than anything else ever has or likely ever will? And that this is going to happen on December 14th? I have? You knew this? Good!
+Have I mentioned that [WordPress powers a quarter of the web][wp-quarter]? And that respimg landing in Core is going to do more for respimg adoption than anything else ever has or likely ever will? And that this is going to happen on December 8th? I have? You knew this? Good!
 
 [ricg-wp]: https://wordpress.org/plugins/ricg-responsive-images/changelog/
 [joe-post]: https://make.wordpress.org/core/2015/11/10/responsive-images-in-wordpress-4-4/
@@ -24,7 +24,7 @@ Have I mentioned that [WordPress powers a quarter of the web][wp-quarter]? And t
 
 - Vox has been deploying respimg across their properties, resulting in some [eye][sbnation]-[popping][verge] performance gains.
 - Seeing double downloads in Chrome? Yoav just cleaned up [a][width-for-height] [handful][non-mobile] [of][cached] nasty bugs that were conspiring to cause them.
-- Rachel Andrew, Perch proprietor and CSS-Grids-expert, recently published [a reflection on how and why CSS Grids has developed over the past few years][css-grid]. It’s a fascinating long view of how standards evolve and how the standards process works. Everything about it — from the the frustration at pace and process to the pride and satisfaction in the end result — felt very, very familiar. If you want to make a dent in the web, go [have a look][css-grid].
+- Rachel Andrew, Perch proprietor and CSS-Grids-expert, recently published [a reflection on how and why CSS Grids has evolved over the past few years][css-grid]. It’s a fascinating long view of how the sausage gets made and everything about it — from the the frustration at pace and process to the pride and satisfaction in the end result — felt very, very familiar.
 
 [sbnation]: https://twitter.com/okor/status/664901771811274753
 [verge]: https://twitter.com/reckless/status/661666972388753408
