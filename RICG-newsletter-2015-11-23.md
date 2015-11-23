@@ -2,7 +2,7 @@
 
 Teaser text: 120 million users and a quarter of all websites.
 
-## `picture` ships to 120 million Windows 10 users
+## `picture` support ships to 120 million Windows 10 users
 
 A few months after landing in the Microsoft Edge developer preview releases, `picture` [made its way into an official Windows 10 auto-update][picture-drop].
 
@@ -10,7 +10,7 @@ So: every desktop browser except for Safari is shipping `picture`. For the fruit
 
 [picture-drop]: https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6261271-picture-element
 
-## WordPress Progress
+## WordPress progress
 
 Versions 3 (and 3.1!) of the official RICG responsive images plugin for WordPress [have landed][ricg-wp]. If you've been using the plugin, upgrade! Version 3 deprecates its core functionality, which is being merged into WordPress 4.4 Core. We've known about this (huge! amazing! sea-change-y!) development for a couple of newsletters but Joe McGill just wrote [an excellent explainer about it][joe-post] over on the WordPress Core development blog.
 
