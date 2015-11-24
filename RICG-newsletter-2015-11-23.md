@@ -12,7 +12,7 @@ So: every desktop browser except for Safari is shipping `picture`. For the fruit
 
 ## WordPress progress
 
-Versions 3 (and 3.1!) of the official RICG responsive images plugin for WordPress [have landed][ricg-wp]. If you've been using the plugin, upgrade! Version 3 deprecates its core functionality, which is being merged into WordPress 4.4 Core. We've known about this (huge! amazing! sea-change-y!) development for a couple of newsletters but Joe McGill just wrote [an excellent explainer about it][joe-post] over on the WordPress Core development blog.
+Versions 3 (and 3.1!) of the official RICG responsive images plugin for WordPress [have landed][ricg-wp]. If you've been using the plugin, upgrade! Version 3 deprecates its core functionality, which is being merged into WordPress 4.4 Core. Joe McGill wrote [an excellent explainer about the 4.4 changes][joe-post] over on the WordPress Core development blog.
 
 Have I mentioned that [WordPress powers a quarter of the web][wp-quarter]? And that respimg landing in Core is going to do more for respimg adoption than anything else ever has or likely ever will? And that this is going to happen on December 8th? I have? You knew this? Good!
 
