@@ -22,13 +22,13 @@ This is true! But, if you’ll allow me to over-extend the metaphor, the impleme
 
 `picture` in WebKit (which you can test by downloading [WebKit Nightly][webkit-nightly]) currently has some issues with double-downloads, and doesn’t yet respond to viewport changes. Luckily the implementation will have plenty of time to mature, as it (probably) won’t be ported over to shipping Safaris until their next major version bumps in the fall.
 
-But! In the Fall! iOS 10 will (probably) ship with a complete responsive images implementation! And the last gap in respimg support will be filled. Huzzah.
+But! In the Fall! Mobile and desktop Safari will (probably) ship with complete responsive images implementations! And the last gap in respimg support will be filled. Huzzah.
 
 ## 2016: Year of the Container Query?
 
-The end of 2015 brought a lot of new thinking and tinkering on the evergreen topic of Element/Container Queries. Tommy Hodgins and Maxime Euzière have registered [elementqueries.com][eq-com]; in addition to housing their [EQCSS Javascript library][eqcss], they’ve used the domain to publish *loads* of [demos][eq-demos] and collected [a comprehensive list][eq-resources] of element/container query resources. Check it out!
+The end of 2015 brought a lot of new thinking and tinkering on the evergreen topic of Element/Container Queries. Tommy Hodgins and Maxime Euzière have registered [elementqueries.com][eq-com]; in addition to housing their [EQCSS Javascript library][eqcss] there, they’ve used the domain to publish *loads* of [demos][eq-demos] and collected [a comprehensive list][eq-resources] of element/container query resources. Check it out!
 
-And [over on 24 Ways][ways], Jonathan Snook gives a very nice executive summary of the what and why of container queries, surveys the current landscape of prollyfills and experimental implementations, and for his last trick shows how Shopify is actually prollyfilling Container Queries in production (!).
+And [over on 24 Ways][ways], Jonathan Snook gives a very nice executive summary of the what and why of container queries, surveys the current landscape of prollyfills and experimental implementations, and shows how Shopify is actually prollyfilling Container Queries in production (!).
 
 ## Grab bag
 
