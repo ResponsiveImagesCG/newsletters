@@ -22,7 +22,7 @@ This is true! But, if you’ll allow me to over-extend the metaphor, the impleme
 
 `picture` in WebKit (which you can test by downloading [WebKit Nightly][webkit-nightly]) currently has some issues with double-downloads, and doesn’t yet respond to viewport changes. Luckily the implementation will have plenty of time to mature, as it (probably) won’t be ported over to shipping Safaris until their next major version bumps in the fall.
 
-But! In the Fall! Mobile and desktop Safari will (probably) ship with complete responsive images implementations! And the last gap in respimg support will be filled. Huzzah.
+But! In the Fall! Mobile and desktop Safari will (probably) ship with complete responsive images implementations! And the last big gap in respimg support will be filled. Huzzah.
 
 ## 2016: Year of the Container Query?
 
@@ -35,7 +35,7 @@ And [over on 24 Ways][ways], Jonathan Snook gives a very nice executive summary 
 - I wrote a thing! About [automating responsive images using Cloudinary’s on-the-fly resizing  features][cloudinary].
 - A couple of Performance Calendar posts went deep on topics near and dear to the RICG’s heart: [Colin Bendell on chroma-subsampling][chroma]; [Tobias Baldauf on lazy loading][lazy].
 - `alt` text is vital, and a *truly* responsive image will adapt all the way down to no-image-at-all. [Chrome for Android just shipped a “no images” preference][no-images].
-- [Placeholder images in spaaaaaaace][space]
+- [Placeholder images in spaaaaaaace!][space]
 
 
 See you in a few weeks!
@@ -43,8 +43,8 @@ See you in a few weeks!
 
 [wp-release]: https://codex.wordpress.org/Version_4.4
 [chrome-status]: https://www.chromestatus.com/metrics/feature/timeline/popularity/524
-[wp-best]: http://wpbestpractices.com/wordpress-4-4-responsive-images/
 [wp-respimg-team]: https://github.com/ResponsiveImagesCG/wp-tevko-responsive-images/graphs/contributors
+[wp-best]: http://wpbestpractices.com/wordpress-4-4-responsive-images/
 
 [webkit-bug]: https://bugs.webkit.org/show_bug.cgi?id=116963
 [webkit-tweet]: https://twitter.com/webkit/status/672430609491431425
