@@ -32,6 +32,7 @@ And [over on 24 Ways][ways], Jonathan Snook gives a very nice executive summary 
 
 ## Grab bag
 
+- I wrote a thing! About [automating responsive images using Cloudinary’s on-the-fly resizing  features][http://cloudinary.com/blog/responsive_images_with_srcset_sizes_and_cloudinary].
 - A couple of Performance Calendar posts went deep on topics near and dear to the RICG’s heart: [Colin Bendell on chroma-subsampling][chroma]; [Tobias Baldauf on lazy loading][lazy].
 - `alt` text is vital, and a *truly* responsive image will adapt all the way down to no-image-at-all. [Chrome for Android just shipped a “no images” preference][no-images].
 - [Placeholder images in spaaaaaaace][space]
