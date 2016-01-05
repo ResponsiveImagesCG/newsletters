@@ -32,7 +32,7 @@ And [over on 24 Ways][ways], Jonathan Snook gives a very nice executive summary 
 
 ## Grab bag
 
-- I wrote a thing! About [automating responsive images using Cloudinary’s on-the-fly resizing  features][http://cloudinary.com/blog/responsive_images_with_srcset_sizes_and_cloudinary].
+- I wrote a thing! About [automating responsive images using Cloudinary’s on-the-fly resizing  features][cloudinary].
 - A couple of Performance Calendar posts went deep on topics near and dear to the RICG’s heart: [Colin Bendell on chroma-subsampling][chroma]; [Tobias Baldauf on lazy loading][lazy].
 - `alt` text is vital, and a *truly* responsive image will adapt all the way down to no-image-at-all. [Chrome for Android just shipped a “no images” preference][no-images].
 - [Placeholder images in spaaaaaaace][space]
@@ -56,6 +56,7 @@ See you in a few weeks!
 [eq-resources]: http://elementqueries.com/#further-reading
 [ways]: https://24ways.org/2015/being-responsive-to-the-small-things/
 
+[cloudinary]: http://cloudinary.com/blog/responsive_images_with_srcset_sizes_and_cloudinary
 [chroma]: http://calendar.perfplanet.com/2015/why-arent-your-images-using-chroma-subsampling/
 [lazy]: http://calendar.perfplanet.com/2015/immaculate-imagery-with-lazy-pictures-bpg/
 [no-images]: http://www.theverge.com/2015/12/1/9827386/google-chrome-android-data-saver-image-blocking
