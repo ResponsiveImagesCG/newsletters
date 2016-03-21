@@ -2,9 +2,13 @@
 
 **Teaser text:** `picture` in Safari, cool tools, and a container query status update
 
-## `picture` is coming to Safari 9.1
+## `picture` just shipped in Safari 9.1
 
-A long time ago, in a newsletter far, far away*, I reported that `picture` would be shipping in Safaris in “the fall.” Good news everybody! Apple decided to do a webdev-focused Safari point release, and [the headlining feature](https://developer.apple.com/library/prerelease/mac/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_1.html) is `picture`! On desktops, 9.1 should land in OS 10.11.4 (any day now?); with any luck iOS won’t be too far behind.
+A long time ago, in a newsletter far, far away*, I reported that `picture` would be shipping in Safaris in “the fall.” Good news everybody! Apple shipped a webdev-focused Safari point release yesterday, and [the headlining feature](https://developer.apple.com/library/prerelease/mac/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_1.html) is `picture`!
+
+And with that – every major browser is shipping with support for every respimg feature.
+
+![We did it.](https://ericportis.com/etc/wedidit.gif)
 
 *Caveat implementor*: Apple’s implementation still suffers from some fairly severe bugs. Two biggies: 1) double downloads [sometimes](http://jsbin.com/fikizogapu/1/edit?html,output), 2) it doesn’t respond to viewport changes.
 
@@ -44,3 +48,4 @@ See you in a couple weeks!
 —eric
 
 \* Sorry, by the way, for the extended haitus. Turns out: quitting your job, leaving the country for three weeks, and then moving from the Mile-High City to a cabin by the sea is fairly disruptive, re: timely newslettering.
+
