@@ -1,6 +1,6 @@
 # Finishing touches & new foundations
 
-**Teaser text:** `picture` in Safari, cool tools, and a container query status update
+**Teaser text:** We did it.
 
 ## `picture` just shipped in Safari 9.1
 
