@@ -1,6 +1,8 @@
 # Finishing touches & new foundations
 
-**Teaser text:** `picture` in Safari is imminent, cool tools, and a container query status update
+**Teaser text:** `picture` in Safari, cool tools, and a container query status update
+
+## `picture` is coming to Safari 9.1
 
 A long time ago, in a newsletter far, far away*, I reported that `picture` would be shipping in Safaris in “the fall.” Good news everybody! Apple decided to do a webdev-focused Safari point release, and [the headlining feature](https://developer.apple.com/library/prerelease/mac/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_1.html) is `picture`! On desktops, 9.1 should land in OS 10.11.4 (any day now?); with any luck iOS won’t be too far behind.
 
@@ -32,14 +34,13 @@ Speaking of great explainers on SmashingMag, Jon Arne Sæterås penned [a great 
 
 Finally, I wrote a little thing on the Cloudinary blog about how to use their smart-cropping features for [automatic art direction](http://cloudinary.com/blog/automatically_art_directed_responsive_images).
 
-# Grab bag
+## Grab bag
 
 - The excellent and under-appreciated spec intro for respimg features [now sports a few snazzy (and helpful!) illustrations](https://html.spec.whatwg.org/multipage/embedded-content.html#introduction-3), courtesy of editor Simon “Non-Normative” Pieters.
 - While most of us are only just now dipping our toes into generating WebPs and JPEG-XRs, the *next* next generation of image formats continues to take shape. The FILF folks [wrote a few words](http://flif.info/lossy.html) about using their (lossless-focused) codec lossilly, and the Daala crew (whose in-development video codec [includes an innovative still image coder](https://people.xiph.org/~xiphmont/demo/daala/update1.shtml)) is getting [awfully close](https://arewecompressedyet.com/?r%5B%5D=x265_1.6_ntt-short-1&r%5B%5D=master-2016-03-16-20af6e2&s=ntt-short-1) to their stated goal of outperforming the royalty-encumbered, [world-beating](https://people.mozilla.org/~josh/lossy_compressed_image_study_july_2014/#y-ssim-data) HEVC/H.265.
 - Expect the unexpected and [style your broken images](http://bitsofco.de/styling-broken-images/).
 
-See you in a couple weeks!
+See you in a couple weeks!  
 —eric
 
 \* Sorry, by the way, for the extended haitus. Turns out: quitting your job, leaving the country for three weeks, and then moving from the Mile-High City to a cabin by the sea is fairly disruptive, re: timely newslettering.
-
